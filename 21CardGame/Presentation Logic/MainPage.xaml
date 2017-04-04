@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="titleLabel" HorizontalAlignment="Left" Margin="490,25,0,0" TextWrapping="Wrap" Text="21 Card Game" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
+        <TextBlock x:Name="titleLabel" HorizontalAlignment="Left" Margin="490,25,0,0" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="53,98,0,0" TextWrapping="Wrap" Text="Welcome to the 21 Card Game!" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="53,158,0,0" TextWrapping="Wrap" Text="First time playing 21?  Take a moment to familiarize yourself with how the game is played" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="53,268,0,0" TextWrapping="Wrap" Text="If you'd like to play by yourself select single player.  If you've got some friends with you why not play with them too?" VerticalAlignment="Top" FontSize="20"/>

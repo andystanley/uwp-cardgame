@@ -8,6 +8,36 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,31,0,0" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="110,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="400,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="710,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="995,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="550,115,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy5" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy6" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy7" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="575,140,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="image_Copy8" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Button x:Name="button" Content="Deal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,190,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold"/>
+        <Button x:Name="button_Copy" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="175,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="465,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="785,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1060,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="855,140,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="855,185,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy1" HorizontalAlignment="Left" Margin="855,230,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy2" HorizontalAlignment="Left" Margin="855,275,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="855,95,0,0" TextWrapping="Wrap" Text="Leaderboard" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock2_Copy4" HorizontalAlignment="Left" Margin="1081,95,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy5" HorizontalAlignment="Left" Margin="1130,140,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy6" HorizontalAlignment="Left" Margin="1130,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy7" HorizontalAlignment="Left" Margin="1130,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy8" HorizontalAlignment="Left" Margin="1130,275,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy9" HorizontalAlignment="Left" Margin="140,380,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy10" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy11" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock2_Copy12" HorizontalAlignment="Left" Margin="1021,380,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
 
     </Grid>
 </Page>
