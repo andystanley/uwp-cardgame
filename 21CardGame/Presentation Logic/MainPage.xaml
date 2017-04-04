@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="_21CardGame.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_21CardGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="titleLabel" HorizontalAlignment="Left" Margin="490,25,0,0" TextWrapping="Wrap" Text="21 Card Game" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="53,98,0,0" TextWrapping="Wrap" Text="Welcome to the 21 Card Game!" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="53,158,0,0" TextWrapping="Wrap" Text="First time playing 21?  Take a moment to familiarize yourself with how the game is played" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="53,268,0,0" TextWrapping="Wrap" Text="If you'd like to play by yourself select single player.  If you've got some friends with you why not play with them too?" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="button" Content="View Instructions" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,205,0,0"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="53,318,0,0" VerticalAlignment="Top" Width="217" PlaceholderText="Single Player" Height="37"/>
+        <RadioButton x:Name="radioButton" Content="Beginner (First time playing)" HorizontalAlignment="Left" Margin="53,418,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="53,373,0,0" TextWrapping="Wrap" Text="Ready to Play?  Just select the difficulty and press Begin Game." VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="radioButton_Copy" Content="Expert (Give me a challenge)" HorizontalAlignment="Left" Margin="53,518,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton_Copy1" Content="Amateur (I think I know what I know what I'm doing)" HorizontalAlignment="Left" Margin="53,469,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Begin Game" HorizontalAlignment="Left" Margin="490,610,0,0" VerticalAlignment="Top" Height="75" Width="296" FontSize="40"/>
+
+    </Grid>
+</Page>
