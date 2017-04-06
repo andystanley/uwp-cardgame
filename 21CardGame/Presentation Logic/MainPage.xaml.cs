@@ -37,10 +37,10 @@ namespace _21CardGame
         private async void OnViewInstructions(object sender, RoutedEventArgs e)
         {
             // Store the text from instructions.txt in a variable
-            string instructions = File.ReadAllText("Assets/instructions.txt");
+            string rules = File.ReadAllText("Assets/rules.txt");
 
             // Display the instructions in a MessageDialog
-            var dialog = new MessageDialog(instructions);
+            var dialog = new MessageDialog(rules, "Game Rules");
             await dialog.ShowAsync();
         }
     }
