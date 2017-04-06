@@ -36,16 +36,33 @@ namespace _21CardGame
 
         private void OnDealCards(object sender, RoutedEventArgs e)
         {
+            // Deal the cards
             _game.DealCards();
+
+            // Displays Hint
+            _txtHint.Text = "";
+
+            // Disable the Deal Cards button
+            _btnDealCards.IsEnabled = false;
+
+            // Enable the Flip Cards button
+            _btnFlipCards.IsEnabled = true;
         }
 
         private void OnFlipCards(object sender, RoutedEventArgs e)
         {
+
             //show the cards
             ShowCard(_cardPlayer1, _game.Player1Card);
             ShowCard(_cardPlayer2, _game.Player2Card);
             ShowCard(_cardPlayer3, _game.Player3Card);
             ShowCard(_cardPlayer4, _game.Player4Card);
+
+            // Disable Flip Cards button
+            _btnFlipCards.IsEnabled = false;
+            
+            // Enable the Deal Cards button
+            _btnDealCards.IsEnabled = true;
         }
 
         private void ShowCard(Image imageCtrl, Card card)
