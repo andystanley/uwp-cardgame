@@ -36,7 +36,7 @@ namespace _21CardGame
 
         private async void OnViewInstructions(object sender, RoutedEventArgs e)
         {
-            // Store the instructions.txt in a variable
+            // Store the text from instructions.txt in a variable
             string instructions = File.ReadAllText("Assets/instructions.txt");
 
             // Display the instructions in a MessageDialog
