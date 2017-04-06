@@ -1,0 +1,7 @@
+High Trick Pony is similar to the popular game War
+Essentially, the player with the highest card wins
+The Deal button deals the cards to all the players
+The Flip button flips all the players cards
+In the event of a tie the tied players will draw one more card
+The first to 5 wins, wins the game
+Good luck!

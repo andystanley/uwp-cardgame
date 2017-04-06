@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,6 +32,16 @@ namespace _21CardGame
         {
             // Navigates to the Game Page
             this.Frame.Navigate(typeof(GamePage));
+        }
+
+        private async void OnViewInstructions(object sender, RoutedEventArgs e)
+        {
+            // Store the instructions.txt in a variable
+            string instructions = File.ReadAllText("Assets/instructions.txt");
+
+            // Display the instructions in a MessageDialog
+            var dialog = new MessageDialog(instructions);
+            await dialog.ShowAsync();
         }
     }
 }
