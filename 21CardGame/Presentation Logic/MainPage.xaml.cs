@@ -26,5 +26,10 @@ namespace _21CardGame
         {
             this.InitializeComponent();
         }
+
+        private void OnBeginGame(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GamePage));
+        }
     }
 }

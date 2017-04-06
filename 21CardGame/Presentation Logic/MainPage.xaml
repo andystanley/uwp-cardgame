@@ -18,7 +18,7 @@
         <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="53,373,0,0" TextWrapping="Wrap" Text="Ready to Play?  Just select the difficulty and press Begin Game." VerticalAlignment="Top" FontSize="20"/>
         <RadioButton x:Name="radioButton_Copy" Content="Expert (Give me a challenge)" HorizontalAlignment="Left" Margin="53,518,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioButton_Copy1" Content="Amateur (I think I know what I know what I'm doing)" HorizontalAlignment="Left" Margin="53,469,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Begin Game" HorizontalAlignment="Left" Margin="490,610,0,0" VerticalAlignment="Top" Height="75" Width="296" FontSize="40"/>
+        <Button x:Name="button1" Content="Begin Game" HorizontalAlignment="Left" Margin="490,610,0,0" VerticalAlignment="Top" Height="75" Width="296" FontSize="40" Click="OnBeginGame"/>
 
     </Grid>
 </Page>
