@@ -26,6 +26,7 @@ namespace _21CardGame
     public sealed partial class GamePage : Page
     {
         private CardGame _game;
+
         private int _player1Score;
         private int _player2Score;
         private int _player3Score;
@@ -135,9 +136,53 @@ namespace _21CardGame
 
         }
 
-       private void ShowRoundResult(sbyte roundResult)
-       {
-          
-       }
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (MainPage._player1Name == "")
+            {
+                _player1Name.Text = "Player";
+                _player1LeaderboardName.Text = "Player";
+            }
+            else
+            {
+                _player1Name.Text = MainPage._player1Name;
+                _player1LeaderboardName.Text = MainPage._player1Name;
+            }
+
+            if (MainPage._player2Name == "")
+            {
+                _player2Name.Text = "CPU 2";
+                _player2LeaderboardName.Text = "CPU 2";
+            }
+            else
+            {
+                _player2Name.Text = MainPage._player2Name;
+                _player2LeaderboardName.Text = MainPage._player2Name;
+
+            }
+
+            if (MainPage._player3Name == "")
+            {
+                _player3Name.Text = "CPU 3";
+                _player3LeaderboardName.Text = "CPU 3";
+            }
+            else
+            {
+                _player3Name.Text = MainPage._player3Name;
+                _player3LeaderboardName.Text = MainPage._player3Name;
+            }
+
+            if (MainPage._player4Name == "")
+            {
+                _player4Name.Text = "CPU 4";
+                _player4LeaderboardName.Text = "CPU 4";
+            }
+            else
+            {
+                _player4Name.Text = MainPage._player4Name;
+                _player4LeaderboardName.Text = MainPage._player4Name;
+            }
+
+        }
     }
 }

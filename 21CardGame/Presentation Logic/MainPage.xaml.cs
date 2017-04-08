@@ -23,15 +23,32 @@ namespace _21CardGame
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public static string _player1Name;
+        public static string _player2Name;
+        public static string _player3Name;
+        public static string _player4Name;
+
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        public String Player1Name()
+        {
+            return _player1Text.Text;
         }
 
         private void OnBeginGame(object sender, RoutedEventArgs e)
         {
             // Navigates to the Game Page
             this.Frame.Navigate(typeof(GamePage));
+            _player1Name = _player1Text.Text;
+            _player2Name = _player2Text.Text;
+            _player3Name = _player3Text.Text;
+            _player4Name = _player4Text.Text;
+
+            GamePage gamepage = new GamePage();
+            gamepage.InitializeComponent();
         }
 
         private async void OnViewInstructions(object sender, RoutedEventArgs e)

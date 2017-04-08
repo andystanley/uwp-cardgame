@@ -18,10 +18,10 @@
         <RadioButton x:Name="radioButton_Copy" Content="Expert (Give me a challenge)" HorizontalAlignment="Left" Margin="53,572,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioButton_Copy1" Content="Amateur (I think I know what I know what I'm doing)" HorizontalAlignment="Left" Margin="53,523,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button1" Content="Begin Game" HorizontalAlignment="Left" Margin="490,625,0,0" VerticalAlignment="Top" Height="75" Width="296" FontSize="40" Click="OnBeginGame"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="53,310,0,0" PlaceholderText="Your Name" Width="150"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="53,358,0,0" PlaceholderText="CPU 2" Width="150"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,310,0,0" PlaceholderText="CPU 3" Width="150"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,358,0,0" PlaceholderText="CPU 4" Width="150"/>
+        <TextBox x:Name="_player1Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="53,310,0,0" PlaceholderText="Your Name" Width="150"/>
+        <TextBox x:Name="_player2Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="53,358,0,0" PlaceholderText="CPU 2" Width="150"/>
+        <TextBox x:Name="_player3Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,310,0,0" PlaceholderText="CPU 3" Width="150"/>
+        <TextBox x:Name="_player4Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,358,0,0" PlaceholderText="CPU 4" Width="150"/>
 
     </Grid>
 </Page>

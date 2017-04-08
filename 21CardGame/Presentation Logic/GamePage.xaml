@@ -5,7 +5,7 @@
     xmlns:local="using:_21CardGame"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Loaded="Page_Loaded">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,31,0,0" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
@@ -24,20 +24,20 @@
         <TextBlock x:Name="Player2Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="465,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
         <TextBlock x:Name="Player3Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="785,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
         <TextBlock x:Name="Player4Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1060,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="855,140,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="855,185,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy1" HorizontalAlignment="Left" Margin="855,230,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy2" HorizontalAlignment="Left" Margin="855,275,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player1LeaderboardName" HorizontalAlignment="Left" Margin="855,140,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player2LeaderboardName" HorizontalAlignment="Left" Margin="855,185,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player3LeaderboardName" HorizontalAlignment="Left" Margin="855,230,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player4LeaderboardName" HorizontalAlignment="Left" Margin="855,275,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="855,95,0,0" TextWrapping="Wrap" Text="Leaderboard" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
         <TextBlock x:Name="textBlock2_Copy4" HorizontalAlignment="Left" Margin="1081,95,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy5" HorizontalAlignment="Left" Margin="1130,140,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy6" HorizontalAlignment="Left" Margin="1130,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy7" HorizontalAlignment="Left" Margin="1130,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy8" HorizontalAlignment="Left" Margin="1130,275,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy9" HorizontalAlignment="Left" Margin="140,380,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy10" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy11" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy12" HorizontalAlignment="Left" Margin="1021,380,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" Margin="140,380,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player4Name" HorizontalAlignment="Left" Margin="1021,380,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="120,120,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
 
     </Grid>
