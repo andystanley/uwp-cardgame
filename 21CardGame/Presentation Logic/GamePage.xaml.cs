@@ -79,24 +79,40 @@ namespace _21CardGame
             {
                 _player1Score++;
                 Player1Point.Text = _player1Score.ToString();
+                if(_player1Score == 5)
+                {
+                    _txtHint.Text = "Player 1 Won!";
+                }
             }
 
             else if (_game.PlayRound() == 2)
             {
                 _player2Score++;
                 Player2Point.Text = _player2Score.ToString();
+                if (_player2Score == 5)
+                {
+                    _txtHint.Text = "Player 2 Won!";
+                }
             }
 
             else if (_game.PlayRound() == 3)
             {
                 _player3Score++;
                 Player3Point.Text = _player3Score.ToString();
+                if (_player3Score == 5)
+                {
+                    _txtHint.Text = "Player 3 Won!";
+                }
             }
 
             else if (_game.PlayRound() == 4)
             {
                 _player4Score++;
                 Player4Point.Text = _player4Score.ToString();
+                if (_player4Score == 5)
+                {
+                    _txtHint.Text = "Player 4 Won!";
+                }
             }
 
             else if(_game.PlayRound()== 0)
@@ -104,39 +120,6 @@ namespace _21CardGame
                 
             }
 
-           // Player2Point.Text = _game.Score.Player2Score.ToString();
-           // Player3Point.Text = _game.Score.Player3Score.ToString();
-           // Player4Point.Text = _game.Score.Player4Score.ToString();
-
-
-            //inform the user who won
-            //switch (roundResult)
-            //{
-            //    case 1:
-            //        _txtHint.Text = "Player 1 won!";
-            //        break;
-
-            //    case -1:
-            //        _txtHint.Text = "Player 2 won!";
-            //        break;
-
-            //    case -2:
-            //        _txtHint.Text = "Player 3 won!";
-            //        break;
-
-            //    case -3:
-            //        _txtHint.Text = "Player 4 won!";
-            //        break;
-
-            //    case 0:
-            //        _txtHint.Text = "The round was a draw!";
-            //        break;
-
-            //    default:
-            //        Debug.Assert(false, "Unknown round result");
-            //        break;
-
-            //}
         }
 
         private void ShowCard(Image imageCtrl, Card card)
