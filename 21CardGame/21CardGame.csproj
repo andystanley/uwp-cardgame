@@ -98,7 +98,6 @@
     <Compile Include="Business Logic\Card.cs" />
     <Compile Include="Business Logic\CardDeck.cs" />
     <Compile Include="Business Logic\CardGame.cs" />
-    <Compile Include="Business Logic\GameScore.cs" />
     <Compile Include="Presentation Logic\GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>

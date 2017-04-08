@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -25,6 +26,10 @@ namespace _21CardGame
     public sealed partial class GamePage : Page
     {
         private CardGame _game;
+        private int _player1Score;
+        private int _player2Score;
+        private int _player3Score;
+        private int _player4Score;
 
         public GamePage()
         {
@@ -32,6 +37,11 @@ namespace _21CardGame
 
             //initialize the _game field variable
             _game = new CardGame();
+
+            _player1Score = 0;
+            _player2Score = 0;
+            _player3Score = 0;
+            _player4Score = 0;
         }
 
         private void OnDealCards(object sender, RoutedEventArgs e)
@@ -63,6 +73,70 @@ namespace _21CardGame
             
             // Enable the Deal Cards button
             _btnDealCards.IsEnabled = true;
+
+            //update the score
+            if (_game.PlayRound() == 1)
+            {
+                _player1Score++;
+                Player1Point.Text = _player1Score.ToString();
+            }
+
+            else if (_game.PlayRound() == 2)
+            {
+                _player2Score++;
+                Player2Point.Text = _player2Score.ToString();
+            }
+
+            else if (_game.PlayRound() == 3)
+            {
+                _player3Score++;
+                Player3Point.Text = _player3Score.ToString();
+            }
+
+            else if (_game.PlayRound() == 4)
+            {
+                _player4Score++;
+                Player4Point.Text = _player4Score.ToString();
+            }
+
+            else if(_game.PlayRound()== 0)
+            {
+                
+            }
+
+           // Player2Point.Text = _game.Score.Player2Score.ToString();
+           // Player3Point.Text = _game.Score.Player3Score.ToString();
+           // Player4Point.Text = _game.Score.Player4Score.ToString();
+
+
+            //inform the user who won
+            //switch (roundResult)
+            //{
+            //    case 1:
+            //        _txtHint.Text = "Player 1 won!";
+            //        break;
+
+            //    case -1:
+            //        _txtHint.Text = "Player 2 won!";
+            //        break;
+
+            //    case -2:
+            //        _txtHint.Text = "Player 3 won!";
+            //        break;
+
+            //    case -3:
+            //        _txtHint.Text = "Player 4 won!";
+            //        break;
+
+            //    case 0:
+            //        _txtHint.Text = "The round was a draw!";
+            //        break;
+
+            //    default:
+            //        Debug.Assert(false, "Unknown round result");
+            //        break;
+
+            //}
         }
 
         private void ShowCard(Image imageCtrl, Card card)
@@ -78,36 +152,9 @@ namespace _21CardGame
 
         }
 
-        private void ShowRoundResult(sbyte roundResult)
-        {
-            //update the score
-            _txtPlayerScore.Text = _game.Score.PlayerScore.ToString();
-            _txtHouseScore.Text = _game.Score.HouseScore.ToString();
-
-            //show the cards
-            //ShowCard(_imgPlayerCard, _game.PlayerCard);
-            //ShowCard(_imgHouseCard, _game.HouseCard);
-
-            //inform the user who won
-            switch (roundResult)
-            {
-                case 1:
-                    _txtGameBoard.Text = "Player won!";
-                    break;
-
-                case -1:
-                    _txtGameBoard.Text = "House won!";
-                    break;
-
-                case 0:
-                    _txtGameBoard.Text = "The round was a draw!";
-                    break;
-
-                default:
-                    Debug.Assert(false, "Unknown round result");
-                    break;
-
-            }
-        }
+       private void ShowRoundResult(sbyte roundResult)
+       {
+          
+       }
     }
 }

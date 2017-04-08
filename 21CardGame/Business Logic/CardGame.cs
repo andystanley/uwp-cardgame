@@ -17,31 +17,61 @@ namespace UniversalCardGame
         /// <summary>
         /// The score value for the player
         /// </summary>
-        private int _playerScore;
+        private int _player1Score;
 
         /// <summary>
         /// The score value for the house
         /// </summary>
-        private int _houseScore;
+        private int _player2Score;
+
+        /// <summary>
+        /// The score value for the house
+        /// </summary>
+        private int _player3Score;
+
+        /// <summary>
+        /// The score value for the house
+        /// </summary>
+        private int _player4Score;
 
         /// <summary>
         /// The score value for the player. The property provides access
         /// to the internal field variable
         /// </summary>
-        public int PlayerScore
+        public int Player1Score
         {
-            get { return _playerScore; }
-            set { _playerScore = value; }
+            get { return _player1Score; }
+            set { _player1Score = value; }
         }
 
         /// <summary>
-        /// The score value for the house. The property provides access
+        /// The score value for Player 2. The property provides access
         /// to the internal field variable
         /// </summary>
-        public int HouseScore
+        public int Player2Score
         {
-            get { return _houseScore; }
-            set { _houseScore = value; }
+            get { return _player2Score; }
+            set { _player2Score = value; }
+        }
+
+        /// <summary>
+        /// The score value for Player 3. The property provides access
+        /// to the internal field variable
+        /// </summary>
+        public int Player3Score
+        {
+            get { return _player3Score; }
+            set { _player3Score = value; }
+        }
+
+        /// <summary>
+        /// The score value for Player 4. The property provides access
+        /// to the internal field variable
+        /// </summary>
+        public int Player4Score
+        {
+            get { return _player4Score; }
+            set { _player4Score = value; }
         }
 
     }
@@ -71,11 +101,6 @@ namespace UniversalCardGame
         private Card _player2Card;
         private Card _player3Card;
         private Card _player4Card;
-
-        /// <summary>
-        /// The card being played by the house in the current round
-        /// </summary>
-        private Card _houseCard;
 
         /// <summary>
         /// Constructor method for creating a card game object with a new
@@ -131,31 +156,6 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// The card in the hand of the house (currently being played). Value
-        /// can obtained but not set because it can only be set by playing the game
-        /// </summary>
-        public Card HouseCard
-        {
-            get { return _houseCard; }
-        }
-
-        /// <summary>
-        /// Read-only property to check if player won
-        /// </summary>
-        public bool PlayerWins
-        {
-            get { return _score.PlayerScore > _score.HouseScore; } 
-        }
-
-        /// <summary>
-        /// Read-only property to check if the house won 
-        /// </summary>
-        public bool HouseWins
-        {
-            get { return _score.HouseScore > _score.PlayerScore; } 
-        }
-
-        /// <summary>
         /// Read-only property to check if the game is over
         /// </summary>
         public bool IsOver
@@ -181,30 +181,37 @@ namespace UniversalCardGame
             byte player2CardRank = DetermineCardRank(_player2Card);
             byte player3CardRank = DetermineCardRank(_player3Card);
             byte player4CardRank = DetermineCardRank(_player4Card);
-
-            return 0;
-            /*
-            byte houseCardRank = DetermineCardRank(_houseCard);
-
+            
             //compare the card ranks to determine round winner
-            if (playerCardRank > houseCardRank)
+            if (player1CardRank > player2CardRank && player1CardRank > player3CardRank && player1CardRank > player4CardRank)
             {
-                //player won the round
-                _score.PlayerScore++; // means += 1
+                //player1 won the round
                 return 1;
             }
-            else if (playerCardRank < houseCardRank)
+            else if (player2CardRank > player1CardRank && player2CardRank > player3CardRank && player2CardRank > player4CardRank)
             {
-                //house won the round
-                _score.HouseScore++; // means += 1
-                return -1;
+                //playre2 won the round
+                return 2;
             }
+
+            else if (player3CardRank > player1CardRank && player3CardRank > player2CardRank && player3CardRank > player4CardRank)
+            {
+                //player3 won the round
+                return 3;
+            }
+
+            else if (player4CardRank > player1CardRank && player4CardRank > player3CardRank && player4CardRank > player3CardRank)
+            {
+                //player4 won the round
+                return 4;
+            }
+
             else
             {
                 //the round is a draw, no change in score
                 return 0;
             }
-            */
+            
         }
 
         /// <summary>
