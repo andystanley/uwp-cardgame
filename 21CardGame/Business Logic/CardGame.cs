@@ -220,7 +220,7 @@ namespace UniversalCardGame
         public void DealCards()
         {
             //provide the player and the house with two random cards from the deck
-            bool cardsDealt = _cardDeck.GetPairOfCards(out _player1Card, out _player2Card, out _player3Card, out _player4Card);
+            bool cardsDealt = _cardDeck.GetCards(out _player1Card, out _player2Card, out _player3Card, out _player4Card);
             Debug.Assert(cardsDealt, "Could not deal cards. The card deck cannot provide them.");
         }
 
