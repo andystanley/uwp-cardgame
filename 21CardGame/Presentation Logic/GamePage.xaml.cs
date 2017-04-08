@@ -26,10 +26,16 @@ namespace _21CardGame
     public sealed partial class GamePage : Page
     {
         private CardGame _game;
+
         private int _player1Score;
         private int _player2Score;
         private int _player3Score;
         private int _player4Score;
+
+        private int _playerOneScore;
+        private int _playerTwoScore;
+        private int _playerThreeScore;
+        private int _playerFourScore;
 
         public GamePage()
         {
@@ -42,6 +48,11 @@ namespace _21CardGame
             _player2Score = 0;
             _player3Score = 0;
             _player4Score = 0;
+
+            _playerOneScore = 0;
+            _playerTwoScore = 0;
+            _playerThreeScore = 0;
+            _playerFourScore = 0;
         }
 
         private void OnDealCards(object sender, RoutedEventArgs e)
@@ -82,6 +93,9 @@ namespace _21CardGame
                 if(_player1Score == 5)
                 {
                     _txtHint.Text = "Player 1 Won!";
+                    _playerOneScore++;
+                    playerOneScore.Text = _playerOneScore.ToString();
+                    ClearResults();
                 }
             }
 
@@ -92,6 +106,9 @@ namespace _21CardGame
                 if (_player2Score == 5)
                 {
                     _txtHint.Text = "Player 2 Won!";
+                    _playerTwoScore++;
+                    playerTwoScore.Text = _playerTwoScore.ToString();
+                    ClearResults();
                 }
             }
 
@@ -102,6 +119,9 @@ namespace _21CardGame
                 if (_player3Score == 5)
                 {
                     _txtHint.Text = "Player 3 Won!";
+                    _playerThreeScore++;
+                    playerThreeScore.Text = _playerThreeScore.ToString();
+                    ClearResults();
                 }
             }
 
@@ -112,6 +132,9 @@ namespace _21CardGame
                 if (_player4Score == 5)
                 {
                     _txtHint.Text = "Player 4 Won!";
+                    _playerFourScore++;
+                    playerFourScore.Text = _playerFourScore.ToString();
+                    ClearResults();
                 }
             }
 
@@ -135,9 +158,17 @@ namespace _21CardGame
 
         }
 
-       private void ShowRoundResult(sbyte roundResult)
-       {
-          
-       }
+        private void ClearResults()
+        {
+            _player1Score = 0;
+            _player2Score = 0;
+            _player3Score = 0;
+            _player4Score = 0;
+
+            Player1Point.Text = "0";
+            Player2Point.Text = "0";
+            Player3Point.Text = "0";
+            Player4Point.Text = "0";
+        }
     }
 }
