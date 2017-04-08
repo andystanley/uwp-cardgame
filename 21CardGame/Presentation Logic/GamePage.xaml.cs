@@ -77,37 +77,5 @@ namespace _21CardGame
             imageCtrl.Source = new BitmapImage(new Uri(cardImgPath));
 
         }
-
-        private void ShowRoundResult(sbyte roundResult)
-        {
-            //update the score
-            _txtPlayerScore.Text = _game.Score.PlayerScore.ToString();
-            _txtHouseScore.Text = _game.Score.HouseScore.ToString();
-
-            //show the cards
-            //ShowCard(_imgPlayerCard, _game.PlayerCard);
-            //ShowCard(_imgHouseCard, _game.HouseCard);
-
-            //inform the user who won
-            switch (roundResult)
-            {
-                case 1:
-                    _txtGameBoard.Text = "Player won!";
-                    break;
-
-                case -1:
-                    _txtGameBoard.Text = "House won!";
-                    break;
-
-                case 0:
-                    _txtGameBoard.Text = "The round was a draw!";
-                    break;
-
-                default:
-                    Debug.Assert(false, "Unknown round result");
-                    break;
-
-            }
-        }
     }
 }
