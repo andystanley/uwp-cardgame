@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using UniversalCardGame;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -51,7 +52,6 @@ namespace _21CardGame
 
         private void OnFlipCards(object sender, RoutedEventArgs e)
         {
-
             //show the cards
             ShowCard(_cardPlayer1, _game.Player1Card);
             ShowCard(_cardPlayer2, _game.Player2Card);

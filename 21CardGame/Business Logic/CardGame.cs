@@ -73,11 +73,6 @@ namespace UniversalCardGame
         private Card _player4Card;
 
         /// <summary>
-        /// The card being played by the house in the current round
-        /// </summary>
-        private Card _houseCard;
-
-        /// <summary>
         /// Constructor method for creating a card game object with a new
         /// card deck.
         /// </summary>
@@ -94,7 +89,7 @@ namespace UniversalCardGame
             _player2Card = null;
             _player3Card = null;
             _player4Card = null;
-
+   
         }
 
         /// <summary>
@@ -130,14 +125,6 @@ namespace UniversalCardGame
             get { return _player4Card; }
         }
 
-        /// <summary>
-        /// The card in the hand of the house (currently being played). Value
-        /// can obtained but not set because it can only be set by playing the game
-        /// </summary>
-        public Card HouseCard
-        {
-            get { return _houseCard; }
-        }
 
         /// <summary>
         /// Read-only property to check if player won
@@ -212,9 +199,9 @@ namespace UniversalCardGame
         /// </summary>
         public void DealCards()
         {
-            //provide the player and the house with two random cards from the deck
-            bool cardsDealt = _cardDeck.GetPairOfCards(out _player1Card, out _player2Card, out _player3Card, out _player4Card);
-            Debug.Assert(cardsDealt, "Could not deal cards. The card deck cannot provide them.");
+           //provide the player and the house with two random cards from the deck
+           bool cardsDealt = _cardDeck.GetCards(out _player1Card, out _player2Card, out _player3Card, out _player4Card);
+            //Debug.Assert(cardsDealt, "Could not deal cards. The card deck cannot provide them.");
         }
 
         /// <summary>
