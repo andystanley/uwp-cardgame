@@ -59,6 +59,11 @@ namespace UniversalCardGame
             get { return _cardList.Count; }
         }
 
+        public List<Card> CardList
+        {
+            get { return _cardList; }
+        }
+
         /// <summary>
         /// Provide access to the static randomizer used by the card deck.
         /// </summary>
@@ -128,12 +133,12 @@ namespace UniversalCardGame
 
         //Implement GetPairOfCards that extracts two random cards out of the deck. 
         //The cards are removed from the deck
-        public bool GetPairOfCards(out Card cardOne, out Card cardTwo, out Card cardThree, out Card cardFour)
+        public bool GetCards(out Card cardOne, out Card cardTwo, out Card cardThree, out Card cardFour)
         {
             //check that we have enough cards
             if (_cardList.Count >= 4)
             {
-                //extract two random cards
+                //extract four random cards
 
                 //determine a random index
                 int randCardOneIndex = CardDeck.Randomizer.Next(_cardList.Count);
@@ -152,7 +157,7 @@ namespace UniversalCardGame
                 //extract the third card
                 int randCardThreeIndex = CardDeck.Randomizer.Next(_cardList.Count);
                 cardThree = _cardList[randCardThreeIndex];
-                _cardList.RemoveAt(randCardTwoIndex);
+                _cardList.RemoveAt(randCardThreeIndex);
 
                 //extract the fourth card
                 int randCardFourIndex = CardDeck.Randomizer.Next(_cardList.Count);
@@ -161,14 +166,38 @@ namespace UniversalCardGame
 
                 return true;
             }
-            else
+            // If the deck has less than four cards in it
+            else 
             {
-                //there are no more cards in the deck
-                cardOne = null;
-                cardTwo = null;
-                cardThree = null;
-                cardFour = null;
-                return false;
+                // Create a new card list
+                _cardList = new List<Card>();
+
+                //fill the card list with card objects
+                CreateCards();
+
+                //extract four random cards
+
+                //extract the second card
+                int randCardOneIndex = CardDeck.Randomizer.Next(_cardList.Count);
+                cardOne = _cardList[randCardOneIndex];
+                _cardList.RemoveAt(randCardOneIndex);
+
+                //extract the second card
+                int randCardTwoIndex = CardDeck.Randomizer.Next(_cardList.Count);
+                cardTwo = _cardList[randCardTwoIndex];
+                _cardList.RemoveAt(randCardTwoIndex);
+
+                //extract the third card
+                int randCardThreeIndex = CardDeck.Randomizer.Next(_cardList.Count);
+                cardThree = _cardList[randCardThreeIndex];
+                _cardList.RemoveAt(randCardThreeIndex);
+
+                //extract the fourth card
+                int randCardFourIndex = CardDeck.Randomizer.Next(_cardList.Count);
+                cardFour = _cardList[randCardFourIndex];
+                _cardList.RemoveAt(randCardFourIndex);
+
+                return true;
             }
         }
 
