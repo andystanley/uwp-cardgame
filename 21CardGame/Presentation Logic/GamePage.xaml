@@ -18,12 +18,12 @@
             </StackPanel>
             <StackPanel Margin="715,385,400,10" Orientation="Vertical">
                 <TextBlock x:Name="_player3Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Center" FontSize="30"/>
-                <Image x:Name="_cardPlayer2" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <Image x:Name="_cardPlayer3" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
                 <TextBlock x:Name="_player3Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
             </StackPanel>
             <StackPanel Margin="410,385,705,10" Orientation="Vertical">
                 <TextBlock x:Name="_player2Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Center" FontSize="30"/>
-                <Image x:Name="_cardPlayer3" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <Image x:Name="_cardPlayer2" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
                 <TextBlock x:Name="_player2Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
             </StackPanel>
             <StackPanel Margin="1020,385,95,10" Orientation="Vertical">
@@ -54,6 +54,7 @@
             <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="185,140,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
             <Button x:Name="_btnNewGame" Content="New Game" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,20,0,0" Width="155" Height="45" FontSize="25" Click="OnNewGame"/>
             <Button x:Name="_btnViewRules" Content="View Rules" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,82,0,0" Width="155" Height="45" FontSize="25" Click="OnViewRules"/>
+            <Button x:Name="_statsButton" Content="Check Stats" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1023,20,0,0" Width="155" Height="45" FontSize="25" Click="OnStatsCheck"/>
 
         </Grid>
     </Viewbox>

@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Media.Animation;
+using _21CardGame.Presentation_Logic;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,6 +29,34 @@ namespace _21CardGame
     /// </summary>
     public sealed partial class GamePage : Page
     {
+
+        public static string _stats1Name;
+        public static string _stats2Name;
+        public static string _stats3Name;
+        public static string _stats4Name;
+
+        public static string _stats1Wins;
+        public static string _stats2Wins;
+        public static string _stats3Wins;
+        public static string _stats4Wins;
+
+        public static string _stats1Loss;
+        public static string _stats2Loss;
+        public static string _stats3Loss;
+        public static string _stats4Loss;
+
+        public static double _totalWins;
+        public static double _player1LeaderboardNumber;
+        public static double _player2LeaderboardNumber;
+        public static double _player3LeaderboardNumber;
+        public static double _player4LeaderboardNumber;
+
+        public static string _totalWinsString;
+        public static string _playerOnePercentage;
+        public static string _playerTwoPercentage;
+        public static string _playerThreePercentage;
+        public static string _playerFourPercentage;
+
 
         private Storyboard rotation = new Storyboard();
         private bool rotating = false;
@@ -43,6 +72,11 @@ namespace _21CardGame
         private int _playerTwoScore;
         private int _playerThreeScore;
         private int _playerFourScore;
+
+        private int _playerOneLoss;
+        private int _playerTwoLoss;
+        private int _playerThreeLoss;
+        private int _playerFourLoss;
 
         public GamePage()
         {
@@ -66,13 +100,16 @@ namespace _21CardGame
             _playerTwoScore = 0;
             _playerThreeScore = 0;
             _playerFourScore = 0;
+
+            _playerOneLoss = 0;
+            _playerTwoLoss = 0;
+            _playerThreeLoss = 0;
+            _playerFourLoss = 0;
         }
 
         public void Rotate(string axis, ref Image target)
         {
             
-            //else
-            //{
                 DoubleAnimation animation = new DoubleAnimation();
                 animation.From = 0.0;
                 animation.To = 360.0;
@@ -125,10 +162,11 @@ namespace _21CardGame
             {
                 rotation.Children.Add(animation4);
             }
-                rotation.Begin();
-                rotating = true;
 
-            //}
+
+            //rotation.Begin();
+            //rotating = true;
+
         }
 
         private void OnDealCards(object sender, RoutedEventArgs e)
@@ -161,9 +199,6 @@ namespace _21CardGame
             _card3.Visibility = Visibility.Visible;
             _card4.Visibility = Visibility.Visible;
 
-            ScaleTransform transform = new ScaleTransform();
-            //transform.ScaleX = -1;
-            _cardPlayer1.RenderTransform = transform;
             //show the cards with one second between each to give the illusion like they are being flipped
             FlipCardsAnimation();
 
@@ -182,6 +217,9 @@ namespace _21CardGame
                 {
                     _txtHint.Text = "Player 1 Won!";
                     _playerOneScore++;
+                    _playerTwoLoss++;
+                    _playerThreeLoss++;
+                    _playerFourLoss++;
                     _player1LeaderboardScore.Text = _playerOneScore.ToString();
                     Rotate("Y", ref _cardPlayer1);
                     ClearResults();
@@ -196,6 +234,9 @@ namespace _21CardGame
                 {
                     _txtHint.Text = "Player 2 Won!";
                     _playerTwoScore++;
+                    _playerOneLoss++;
+                    _playerThreeLoss++;
+                    _playerFourLoss++;
                     _player2LeaderboardScore.Text = _playerTwoScore.ToString();
                     Rotate("Y", ref _cardPlayer2);
                     ClearResults();
@@ -210,6 +251,9 @@ namespace _21CardGame
                 {
                     _txtHint.Text = "Player 3 Won!";
                     _playerThreeScore++;
+                    _playerTwoLoss++;
+                    _playerOneLoss++;
+                    _playerFourLoss++;
                     _player3LeaderboardScore.Text = _playerThreeScore.ToString();
                     Rotate("Y", ref _cardPlayer3);
                     ClearResults();
@@ -224,6 +268,9 @@ namespace _21CardGame
                 {
                     _txtHint.Text = "Player 4 Won!";
                     _playerFourScore++;
+                    _playerTwoLoss++;
+                    _playerThreeLoss++;
+                    _playerOneLoss++;
                     _player4LeaderboardScore.Text = _playerFourScore.ToString();
                     Rotate("Y", ref _cardPlayer4);
                     ClearResults();
@@ -393,6 +440,42 @@ namespace _21CardGame
             _card1.Visibility = Visibility.Collapsed;
             _cardPlayer4.Source = new BitmapImage(new Uri(cardImgPath));
             _cardPlayer4.Opacity = 1.0;
+        }
+
+        private void OnStatsCheck(object sender, RoutedEventArgs e)
+        {
+            
+            // Navigates to the Game Page
+            this.Frame.Navigate(typeof(StatsPage));
+
+            _stats1Name = _player1Name.Text;
+            _stats2Name = _player2Name.Text;
+            _stats3Name = _player3Name.Text;
+            _stats4Name = _player4Name.Text;
+
+            _stats1Wins = _player1LeaderboardScore.Text;
+            _stats2Wins = _player2LeaderboardScore.Text;
+            _stats3Wins = _player3LeaderboardScore.Text;
+            _stats4Wins = _player4LeaderboardScore.Text;
+
+            _stats1Loss = _playerOneLoss.ToString();
+            _stats2Loss = _playerTwoLoss.ToString();
+            _stats3Loss = _playerThreeLoss.ToString();
+            _stats4Loss = _playerFourLoss.ToString();
+
+            _player1LeaderboardNumber = Double.Parse(_player1LeaderboardScore.Text);
+            _player2LeaderboardNumber = Double.Parse(_player2LeaderboardScore.Text);
+            _player3LeaderboardNumber = Double.Parse(_player3LeaderboardScore.Text);
+            _player4LeaderboardNumber = Double.Parse(_player4LeaderboardScore.Text);
+            _totalWins = _player1LeaderboardNumber + _player2LeaderboardNumber + _player3LeaderboardNumber + _player4LeaderboardNumber;
+
+            _playerOnePercentage = (_player1LeaderboardNumber / _totalWins * 100).ToString() + "%";
+            _playerTwoPercentage = (_player2LeaderboardNumber / _totalWins * 100).ToString() + "%";
+            _playerThreePercentage = (_player3LeaderboardNumber / _totalWins * 100).ToString() + "%";
+            _playerFourPercentage = (_player4LeaderboardNumber / _totalWins * 100).ToString() + "%";
+
+            StatsPage statspage = new StatsPage();
+            statspage.InitializeComponent();
         }
     }
 }

@@ -109,6 +109,9 @@
     <Compile Include="Presentation Logic\SinglePlayerGamePage.xaml.cs">
       <DependentUpon>SinglePlayerGamePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Presentation Logic\StatsPage.xaml.cs">
+      <DependentUpon>StatsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +214,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Presentation Logic\SinglePlayerGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation Logic\StatsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
