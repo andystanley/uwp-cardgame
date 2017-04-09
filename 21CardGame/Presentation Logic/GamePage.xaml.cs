@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -41,6 +42,12 @@ namespace _21CardGame
         public GamePage()
         {
             this.InitializeComponent();
+            
+            // Hide each of the players cards
+            _cardPlayer1.Opacity = 0.0;
+            _cardPlayer2.Opacity = 0.0;
+            _cardPlayer3.Opacity = 0.0;
+            _cardPlayer4.Opacity = 0.0;
 
             //initialize the _game field variable
             _game = new CardGame();
@@ -55,13 +62,14 @@ namespace _21CardGame
             _playerThreeScore = 0;
             _playerFourScore = 0;
         }
-
         private void OnDealCards(object sender, RoutedEventArgs e)
         {
+            DealCardsAnimation();
+
             // Deal the cards
             _game.DealCards();
 
-            // Displays Hint
+            // Clear hint
             _txtHint.Text = "";
 
             // Disable the Deal Cards button
@@ -73,12 +81,14 @@ namespace _21CardGame
 
         private void OnFlipCards(object sender, RoutedEventArgs e)
         {
+            // Restock the deck
+            _card1.Visibility = Visibility.Visible;
+            _card2.Visibility = Visibility.Visible;
+            _card3.Visibility = Visibility.Visible;
+            _card4.Visibility = Visibility.Visible;
 
-            //show the cards
-            ShowCard(_cardPlayer1, _game.Player1Card);
-            ShowCard(_cardPlayer2, _game.Player2Card);
-            ShowCard(_cardPlayer3, _game.Player3Card);
-            ShowCard(_cardPlayer4, _game.Player4Card);
+            //show the cards with one second between each to give the illusion like they are being flipped
+            FlipCardsAnimation();
 
             // Disable Flip Cards button
             _btnFlipCards.IsEnabled = false;
@@ -244,6 +254,64 @@ namespace _21CardGame
                 // Navigates to the Game Page
                 this.Frame.Navigate(typeof(MainPage));
             }
+        }
+        private async void FlipCardsAnimation()
+        {
+            // Flip the cards
+
+            // Wait for 1 second
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            
+            // Flip the first card
+            ShowCard(_cardPlayer1, _game.Player1Card);
+
+            // Flip the third card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer3, _game.Player3Card);
+
+            // Flip the second card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer2, _game.Player2Card);
+
+            // Flip the fourth card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer4, _game.Player4Card);
+        }
+
+        private async void DealCardsAnimation()
+        {
+            // Get the path for the back of the card
+            string cardImgPath = $"ms-appx:///Assets/Card Assets/playing-card-back.jpg";
+
+            // Remove the cards from the deck and give them to the players
+
+            // Wait for one second
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+
+            // Hide the card at the top of the deck
+            _card4.Visibility = Visibility.Collapsed;
+            
+            // Display Player 1s Card
+            _cardPlayer1.Source = new BitmapImage(new Uri(cardImgPath));
+            _cardPlayer1.Opacity = 1.0;
+
+            // Display Player 3s Card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            _card3.Visibility = Visibility.Collapsed;
+            _cardPlayer3.Source = new BitmapImage(new Uri(cardImgPath));
+            _cardPlayer3.Opacity = 1.0;
+
+            // Display Player 2s Card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            _card2.Visibility = Visibility.Collapsed;
+            _cardPlayer2.Source = new BitmapImage(new Uri(cardImgPath));
+            _cardPlayer2.Opacity = 1.0;
+
+            // Display Player 4s Card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            _card1.Visibility = Visibility.Collapsed;
+            _cardPlayer4.Source = new BitmapImage(new Uri(cardImgPath));
+            _cardPlayer4.Opacity = 1.0;
         }
     }
 }
