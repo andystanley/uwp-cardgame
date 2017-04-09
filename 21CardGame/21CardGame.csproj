@@ -96,13 +96,18 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business Logic\Card.cs" />
-    <Compile Include="Business Logic\CardDeck.cs" />
-    <Compile Include="Business Logic\CardGame.cs" />
+    <Compile Include="Business Logic\Multiplayer\CardDeck.cs" />
+    <Compile Include="Business Logic\Multiplayer\CardGame.cs" />
+    <Compile Include="Business Logic\SinglePlayer\SinglePlayerCardDeck.cs" />
+    <Compile Include="Business Logic\SinglePlayer\SinglePlayerCardGame.cs" />
     <Compile Include="Presentation Logic\GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Presentation Logic\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Logic\SinglePlayerGamePage.xaml.cs">
+      <DependentUpon>SinglePlayerGamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -204,6 +209,10 @@
     <Page Include="Presentation Logic\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation Logic\SinglePlayerGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup />

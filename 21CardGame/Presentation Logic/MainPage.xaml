@@ -24,6 +24,7 @@
             <TextBox x:Name="_player2Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="53,358,0,0" PlaceholderText="CPU 2" Width="150"/>
             <TextBox x:Name="_player3Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,310,0,0" PlaceholderText="CPU 3" Width="150"/>
             <TextBox x:Name="_player4Text" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="270,358,0,0" PlaceholderText="CPU 4" Width="150"/>
+            <Button x:Name="_btnSinglePlayer" Content="Play Single Player" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="945,432,0,0" Click="OnSinglePlayer"/>
 
         </Grid>
     </Viewbox>

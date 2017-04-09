@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _21CardGame.Presentation_Logic;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -41,7 +42,7 @@ namespace _21CardGame
         private void OnBeginGame(object sender, RoutedEventArgs e)
         {
             // Navigates to the Game Page
-            this.Frame.Navigate(typeof(GamePage));
+            Frame.Navigate(typeof(GamePage));
 
             _player1Name = _player1Text.Text;
             _player2Name = _player2Text.Text;
@@ -60,6 +61,12 @@ namespace _21CardGame
             // Display the instructions in a MessageDialog
             var dialog = new MessageDialog(rules, "Game Rules");
             await dialog.ShowAsync();
+        }
+
+        private void OnSinglePlayer(object sender, RoutedEventArgs e)
+        {
+            // Navigates to the Game Page
+            Frame.Navigate(typeof(SinglePlayerGamePage));
         }
     }
 }
