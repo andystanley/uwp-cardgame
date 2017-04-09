@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Media.Animation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +26,10 @@ namespace _21CardGame
     /// </summary>
     public sealed partial class GamePage : Page
     {
+
+        private Storyboard rotation = new Storyboard();
+        private bool rotating = false;
+
         private CardGame _game;
 
         private int _player1Score;
@@ -55,8 +60,76 @@ namespace _21CardGame
             _playerFourScore = 0;
         }
 
+        public void Rotate(string axis, ref Image target)
+        {
+            
+            //else
+            //{
+                DoubleAnimation animation = new DoubleAnimation();
+                animation.From = 0.0;
+                animation.To = 360.0;
+                animation.BeginTime = TimeSpan.FromSeconds(1);
+                animation.RepeatBehavior = RepeatBehavior.Forever;
+                Storyboard.SetTarget(animation, _cardPlayer1);
+                Storyboard.SetTargetProperty(animation, "(UIElement.Projection).(PlaneProjection.Rotation" + "Y" + ")");
+
+                DoubleAnimation animation2 = new DoubleAnimation();
+                animation2.From = 0.0;
+                animation2.To = 360.0;
+                animation2.BeginTime = TimeSpan.FromSeconds(1);
+                animation2.RepeatBehavior = RepeatBehavior.Forever;
+                Storyboard.SetTarget(animation2, _cardPlayer2);
+                Storyboard.SetTargetProperty(animation2, "(UIElement.Projection).(PlaneProjection.Rotation" + "Y" + ")");
+
+                DoubleAnimation animation3 = new DoubleAnimation();
+                animation3.From = 0.0;
+                animation3.To = 360.0;
+                animation3.BeginTime = TimeSpan.FromSeconds(1);
+                animation3.RepeatBehavior = RepeatBehavior.Forever;
+                Storyboard.SetTarget(animation3, _cardPlayer3);
+                Storyboard.SetTargetProperty(animation3, "(UIElement.Projection).(PlaneProjection.Rotation" + "Y" + ")");
+
+                DoubleAnimation animation4 = new DoubleAnimation();
+                animation4.From = 0.0;
+                animation4.To = 360.0;
+                animation4.BeginTime = TimeSpan.FromSeconds(1);
+                animation4.RepeatBehavior = RepeatBehavior.Forever;
+                Storyboard.SetTarget(animation4, _cardPlayer4);
+                Storyboard.SetTargetProperty(animation4, "(UIElement.Projection).(PlaneProjection.Rotation" + "Y" + ")");
+
+            rotation.Children.Clear();
+
+            if (_player1Score == 5)
+            {
+                rotation.Children.Add(animation);
+            }
+
+            else if (_player2Score == 5)
+            {
+                rotation.Children.Add(animation2);
+            }
+
+            else if (_player3Score == 5)
+            {
+                rotation.Children.Add(animation3);
+            }
+            else if (_player4Score == 5)
+            {
+                rotation.Children.Add(animation4);
+            }
+                rotation.Begin();
+                rotating = true;
+
+            //}
+        }
+
         private void OnDealCards(object sender, RoutedEventArgs e)
         {
+            if (rotating)
+            {
+                rotation.Stop();
+                rotating = false;
+            }
             // Deal the cards
             _game.DealCards();
 
@@ -72,7 +145,9 @@ namespace _21CardGame
 
         private void OnFlipCards(object sender, RoutedEventArgs e)
         {
-
+            ScaleTransform transform = new ScaleTransform();
+            //transform.ScaleX = -1;
+            _cardPlayer1.RenderTransform = transform;
             //show the cards
             ShowCard(_cardPlayer1, _game.Player1Card);
             ShowCard(_cardPlayer2, _game.Player2Card);
@@ -95,6 +170,7 @@ namespace _21CardGame
                     _txtHint.Text = "Player 1 Won!";
                     _playerOneScore++;
                     _player1LeaderboardScore.Text = _playerOneScore.ToString();
+                    Rotate("Y", ref _cardPlayer1);
                     ClearResults();
                 }
             }
@@ -108,6 +184,7 @@ namespace _21CardGame
                     _txtHint.Text = "Player 2 Won!";
                     _playerTwoScore++;
                     _player2LeaderboardScore.Text = _playerTwoScore.ToString();
+                    Rotate("Y", ref _cardPlayer2);
                     ClearResults();
                 }
             }
@@ -121,6 +198,7 @@ namespace _21CardGame
                     _txtHint.Text = "Player 3 Won!";
                     _playerThreeScore++;
                     _player3LeaderboardScore.Text = _playerThreeScore.ToString();
+                    Rotate("Y", ref _cardPlayer3);
                     ClearResults();
                 }
             }
@@ -134,6 +212,7 @@ namespace _21CardGame
                     _txtHint.Text = "Player 4 Won!";
                     _playerFourScore++;
                     _player4LeaderboardScore.Text = _playerFourScore.ToString();
+                    Rotate("Y", ref _cardPlayer4);
                     ClearResults();
                 }
             }
@@ -147,7 +226,7 @@ namespace _21CardGame
 
         private void ShowCard(Image imageCtrl, Card card)
         {
-            //DONE: determine the name of hte image based on card value and suit
+            //DONE: determine the name of the image based on card value and suit
             char suitId = card.Suit.ToString()[0];
             string cardValueId = card.Value.ToString("00");
             string cardImageFileName = $"{suitId}{cardValueId}.png";

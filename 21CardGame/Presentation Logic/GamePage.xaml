@@ -9,10 +9,26 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,31,0,0" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
-        <Image x:Name="_cardPlayer1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="110,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="_cardPlayer2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="400,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="_cardPlayer3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="710,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="_cardPlayer4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="995,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+        <Image x:Name="_cardPlayer1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="110,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
+        <Image.Projection>
+            <PlaneProjection/>
+        </Image.Projection>
+        </Image>
+        <Image x:Name="_cardPlayer2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="400,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
+            <Image.Projection>
+                <PlaneProjection/>
+            </Image.Projection>
+        </Image>
+        <Image x:Name="_cardPlayer3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="710,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
+            <Image.Projection>
+                <PlaneProjection/>
+            </Image.Projection>
+        </Image>
+        <Image x:Name="_cardPlayer4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="995,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
+            <Image.Projection>
+                <PlaneProjection/>
+            </Image.Projection>
+        </Image>
         <Image x:Name="image_Copy4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="550,115,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
         <Image x:Name="image_Copy5" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
         <Image x:Name="image_Copy6" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
