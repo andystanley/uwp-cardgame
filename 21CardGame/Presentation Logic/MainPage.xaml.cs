@@ -42,6 +42,7 @@ namespace _21CardGame
         {
             // Navigates to the Game Page
             this.Frame.Navigate(typeof(GamePage));
+
             _player1Name = _player1Text.Text;
             _player2Name = _player2Text.Text;
             _player3Name = _player3Text.Text;
@@ -51,7 +52,7 @@ namespace _21CardGame
             gamepage.InitializeComponent();
         }
 
-        private async void OnViewInstructions(object sender, RoutedEventArgs e)
+        private async void OnViewRules(object sender, RoutedEventArgs e)
         {
             // Store the text from instructions.txt in a variable
             string rules = File.ReadAllText("Assets/rules.txt");

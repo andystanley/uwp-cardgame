@@ -7,54 +7,54 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="489,31,0,0" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold"/>
-        <Image x:Name="_cardPlayer1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="110,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
-        <Image.Projection>
-            <PlaneProjection/>
-        </Image.Projection>
-        </Image>
-        <Image x:Name="_cardPlayer2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="400,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
-            <Image.Projection>
-                <PlaneProjection/>
-            </Image.Projection>
-        </Image>
-        <Image x:Name="_cardPlayer3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="710,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
-            <Image.Projection>
-                <PlaneProjection/>
-            </Image.Projection>
-        </Image>
-        <Image x:Name="_cardPlayer4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="995,425,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg">
-            <Image.Projection>
-                <PlaneProjection/>
-            </Image.Projection>
-        </Image>
-        <Image x:Name="image_Copy4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="550,115,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="image_Copy5" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="image_Copy6" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="image_Copy7" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="575,140,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Image x:Name="image_Copy8" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-        <Button x:Name="_btnDealCards" Content="Deal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,190,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnDealCards"/>
-        <Button x:Name="_btnFlipCards" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnFlipCards" IsEnabled="False"/>
-        <TextBlock x:Name="_player1Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="175,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="_player2Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="465,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="_player3Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="785,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="_player4Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1060,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="_player1LeaderboardName" HorizontalAlignment="Left" Margin="855,140,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player2LeaderboardName" HorizontalAlignment="Left" Margin="855,185,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player3LeaderboardName" HorizontalAlignment="Left" Margin="855,230,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player4LeaderboardName" HorizontalAlignment="Left" Margin="855,275,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="855,95,0,0" TextWrapping="Wrap" Text="Leaderboard" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlock2_Copy4" HorizontalAlignment="Left" Margin="1081,95,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player1LeaderboardScore" HorizontalAlignment="Left" Margin="1130,140,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player2LeaderboardScore" HorizontalAlignment="Left" Margin="1130,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player3LeaderboardScore" HorizontalAlignment="Left" Margin="1130,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player4LeaderboardScore" HorizontalAlignment="Left" Margin="1130,275,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" Margin="140,380,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_player4Name" HorizontalAlignment="Left" Margin="1021,380,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="120,120,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
+    <Viewbox>
 
-    </Grid>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="720" Width="1280">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="0,10,0,0"/>
+            <StackPanel Margin="105,385,1010,10" Orientation="Vertical">
+                <TextBlock x:Name="_player1Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Center" FontSize="30"/>
+                <Image x:Name="_cardPlayer1" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <TextBlock x:Name="_player1Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
+            </StackPanel>
+            <StackPanel Margin="715,385,400,10" Orientation="Vertical">
+                <TextBlock x:Name="_player3Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Center" FontSize="30"/>
+                <Image x:Name="_cardPlayer2" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <TextBlock x:Name="_player3Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
+            </StackPanel>
+            <StackPanel Margin="410,385,705,10" Orientation="Vertical">
+                <TextBlock x:Name="_player2Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Center" FontSize="30"/>
+                <Image x:Name="_cardPlayer3" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <TextBlock x:Name="_player2Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
+            </StackPanel>
+            <StackPanel Margin="1020,385,95,10" Orientation="Vertical">
+                <TextBlock x:Name="_player4Name" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Center" FontSize="30"/>
+                <Image x:Name="_cardPlayer4" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+                <TextBlock x:Name="_player4Point" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="0" FontSize="45" FontWeight="Bold" Width="35"/>
+            </StackPanel>
+            <Image x:Name="_card1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+            <Image x:Name="_card2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+            <Image x:Name="_card3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="575,140,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+            <Image x:Name="_card4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
+            <Button x:Name="_btnDealCards" Content="Deal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,190,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnDealCards"/>
+            <Button x:Name="_btnFlipCards" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnFlipCards" IsEnabled="False"/>
+            <Border Margin="868,140,102,400" BorderBrush="Black" BorderThickness="2" Background="#FFA7A7A7" Width="310">
+                <Grid>
+                    <TextBlock x:Name="_player1LeaderboardName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30" Margin="10,0,0,0"/>
+                    <TextBlock x:Name="_player2LeaderboardName" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3LeaderboardName" HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4LeaderboardName" HorizontalAlignment="Left" Margin="10,135,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player1LeaderboardScore" HorizontalAlignment="Left" Margin="265,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3LeaderboardScore" HorizontalAlignment="Left" Margin="265,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4LeaderboardScore" HorizontalAlignment="Left" Margin="265,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player2LeaderboardScore" HorizontalAlignment="Left" Margin="265,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                </Grid>
+            </Border>
+            <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="868,95,0,0" TextWrapping="Wrap" Text="Leaderboard" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlock2_Copy4" HorizontalAlignment="Left" Margin="1113,98,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
+            <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="185,140,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
+            <Button x:Name="_btnNewGame" Content="New Game" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,20,0,0" Width="155" Height="45" FontSize="25" Click="OnNewGame"/>
+            <Button x:Name="_btnViewRules" Content="View Rules" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,82,0,0" Width="155" Height="45" FontSize="25" Click="OnViewRules"/>
+
+        </Grid>
+    </Viewbox>
 </Page>
