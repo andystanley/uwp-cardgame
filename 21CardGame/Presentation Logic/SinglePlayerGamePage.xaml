@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Viewbox>
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="720" Width="1280">
+            <Grid Height="720" Width="1280">
                 <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="471.5,10,471.5,0"/>
                 <Image x:Name="_card1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
                 <Image x:Name="_card2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>

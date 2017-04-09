@@ -7,33 +7,36 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="OnStatsLoad">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Border Margin="140,255,141,198" BorderBrush="Black" BorderThickness="2" Background="#FFA7A7A7">
-            <Grid>
-                <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30" Margin="10,0,0,0"/>
-                <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player4Name" HorizontalAlignment="Left" Margin="10,135,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player1Wins" HorizontalAlignment="Left" Margin="265,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player3Wins" HorizontalAlignment="Left" Margin="265,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player4Wins" HorizontalAlignment="Left" Margin="265,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player2Wins" HorizontalAlignment="Left" Margin="265,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player1Loss" HorizontalAlignment="Left" Margin="427,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player2Loss" HorizontalAlignment="Left" Margin="427,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player3Loss" HorizontalAlignment="Left" Margin="427,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player4Loss" HorizontalAlignment="Left" Margin="427,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player1WinPercent" HorizontalAlignment="Left" Margin="620,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player2WinPercent" HorizontalAlignment="Left" Margin="620,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player3WinPercent" HorizontalAlignment="Left" Margin="620,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-                <TextBlock x:Name="_player4WinPercent" HorizontalAlignment="Left" Margin="620,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-            </Grid>
-        </Border>
-        <TextBlock x:Name="_buttonWins" HorizontalAlignment="Left" Margin="382,182,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_playerName" HorizontalAlignment="Left" Margin="171,182,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="-2.813,0.491" SelectionChanged="textBlock2_Copy_SelectionChanged"/>
-        <TextBlock x:Name="_buttonLosses" HorizontalAlignment="Left" Margin="534,182,0,0" TextWrapping="Wrap" Text="Losses" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
-        <TextBlock x:Name="_winPercentage" HorizontalAlignment="Left" Margin="730,182,0,0" TextWrapping="Wrap" Text="Win %" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
-        <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="471.5,10,471.5,0"/>
-        <Button x:Name="backButton" Content="Return to Game" HorizontalAlignment="Center" Margin="0,566,0,0" VerticalAlignment="Top" Click="onGoBack" RenderTransformOrigin="0.987,-0.515" Height="116" Width="407" FontWeight="Bold" FontSize="36"/>
+    <Viewbox>
 
-    </Grid>
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="720" Width="1280">
+            <Border Margin="149,203,132,250" BorderBrush="Black" BorderThickness="2" Background="#FFA7A7A7">
+                <Grid>
+                    <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30" Margin="10,0,0,0"/>
+                    <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4Name" HorizontalAlignment="Left" Margin="10,135,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player1Wins" HorizontalAlignment="Left" Margin="265,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3Wins" HorizontalAlignment="Left" Margin="265,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4Wins" HorizontalAlignment="Left" Margin="265,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player2Wins" HorizontalAlignment="Left" Margin="265,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player1Loss" HorizontalAlignment="Left" Margin="427,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player2Loss" HorizontalAlignment="Left" Margin="427,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3Loss" HorizontalAlignment="Left" Margin="427,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4Loss" HorizontalAlignment="Left" Margin="427,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player1WinPercent" HorizontalAlignment="Left" Margin="620,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player2WinPercent" HorizontalAlignment="Left" Margin="620,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player3WinPercent" HorizontalAlignment="Left" Margin="620,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                    <TextBlock x:Name="_player4WinPercent" HorizontalAlignment="Left" Margin="620,135,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+                </Grid>
+            </Border>
+            <TextBlock x:Name="_buttonWins" HorizontalAlignment="Left" Margin="391,130,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
+            <TextBlock x:Name="_playerName" HorizontalAlignment="Left" Margin="180,130,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="-2.813,0.491" SelectionChanged="textBlock2_Copy_SelectionChanged"/>
+            <TextBlock x:Name="_buttonLosses" HorizontalAlignment="Left" Margin="543,130,0,0" TextWrapping="Wrap" Text="Losses" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
+            <TextBlock x:Name="_winPercentage" HorizontalAlignment="Left" Margin="739,130,0,0" TextWrapping="Wrap" Text="Win %" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="471.5,10,471.5,0"/>
+            <Button x:Name="backButton" Content="Return to Game" HorizontalAlignment="Center" Margin="0,566,0,0" VerticalAlignment="Top" Click="onGoBack" RenderTransformOrigin="0.987,-0.515" Height="116" Width="407" FontWeight="Bold" FontSize="36"/>
+
+        </Grid>
+    </Viewbox>
 </Page>
