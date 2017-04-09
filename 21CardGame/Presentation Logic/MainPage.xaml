@@ -12,7 +12,7 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="53,98,0,0" TextWrapping="Wrap" Text="Welcome to the High Trick Pony Card Game!" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="53,158,0,0" TextWrapping="Wrap" Text="First time playing High Trick Pony?  Take a moment to familiarize yourself with how the game is played" VerticalAlignment="Top" FontSize="20"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="53,268,0,0" TextWrapping="Wrap" Text="If you'd like to play by youself just enter your name.  If you'd like to play with friends just enter their names in the other boxes." VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="button" Content="View Game Rules" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,205,0,0" Click="OnViewInstructions"/>
+        <Button x:Name="button" Content="View Game Rules" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,205,0,0" Click="OnViewRules"/>
         <RadioButton x:Name="radioButton" Content="Beginner (First time playing)" HorizontalAlignment="Left" Margin="53,472,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="53,427,0,0" TextWrapping="Wrap" Text="Ready to Play?  Just select the difficulty and press Begin Game." VerticalAlignment="Top" FontSize="20"/>
         <RadioButton x:Name="radioButton_Copy" Content="Expert (Give me a challenge)" HorizontalAlignment="Left" Margin="53,572,0,0" VerticalAlignment="Top"/>

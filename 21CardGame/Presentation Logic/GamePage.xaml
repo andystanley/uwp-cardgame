@@ -38,7 +38,9 @@
         <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player4Name" HorizontalAlignment="Left" Margin="1021,380,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="120,120,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="120,140,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
+        <Button x:Name="_btnNewGame" Content="New Game" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,20,0,0" Width="155" Height="45" FontSize="25" FontWeight="Bold" Click="OnNewGame"/>
+        <Button x:Name="_btnViewRules" Content="View Rules" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,82,0,0" Width="155" Height="45" FontSize="25" FontWeight="Bold" Click="OnViewRules"/>
 
     </Grid>
 </Page>
