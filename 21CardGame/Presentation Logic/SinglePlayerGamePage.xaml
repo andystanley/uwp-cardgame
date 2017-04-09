@@ -12,17 +12,11 @@
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="471.5,10,471.5,0"/>
             <Image x:Name="_card1" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
             <Image x:Name="_card2" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card3" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="575,140,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card4" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card1_Copy" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="555,120,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card2_Copy" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="565,130,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card3_Copy" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="575,140,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
-            <Image x:Name="_card4_Copy" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
             <TextBlock x:Name="_playerName" HorizontalAlignment="Center" Margin="236,380,939,300" TextWrapping="Wrap" Text="Player" VerticalAlignment="Center" FontSize="30"/>
-            <Image x:Name="_cardPlayer1" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg" Margin="205,420,910,70"/>
+            <Image x:Name="_cardPlayer" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg" Margin="205,420,910,70"/>
             <TextBlock x:Name="_playerPoint" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="270,650,975,10" FontSize="45" FontWeight="Bold" Width="35"/>
             <TextBlock x:Name="_HouseName" HorizontalAlignment="Center" Margin="921,380,254,300" TextWrapping="Wrap" Text="House" VerticalAlignment="Center" FontSize="30"/>
-            <Image x:Name="_cardPlayer3" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg" Margin="890,420,225,70"/>
+            <Image x:Name="_cardHouse" HorizontalAlignment="Center" Height="230" VerticalAlignment="Center" Width="165" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg" Margin="890,420,225,70"/>
             <TextBlock x:Name="_housePoint" HorizontalAlignment="Center" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Margin="955,650,290,10" FontSize="45" FontWeight="Bold" Width="35"/>
             <Border Margin="868,140,102,480" BorderBrush="Black" BorderThickness="2" Background="#FFA7A7A7" Width="310" Height="100">
                 <Grid>
