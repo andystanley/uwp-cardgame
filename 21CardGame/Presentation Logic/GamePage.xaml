@@ -20,20 +20,20 @@
         <Image x:Name="image_Copy8" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="165" Margin="585,150,0,0" Source="ms-appx:///Assets/Card Assets/playing-card-back.jpg"/>
         <Button x:Name="_btnDealCards" Content="Deal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,190,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnDealCards"/>
         <Button x:Name="_btnFlipCards" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnFlipCards" IsEnabled="False"/>
-        <TextBlock x:Name="Player1Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="175,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="Player2Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="465,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="Player3Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="785,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
-        <TextBlock x:Name="Player4Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1060,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="_player1Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="175,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="_player2Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="465,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="_player3Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="785,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
+        <TextBlock x:Name="_player4Point" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="1060,660,0,0" FontSize="45" FontWeight="Bold" Width="35"/>
         <TextBlock x:Name="_player1LeaderboardName" HorizontalAlignment="Left" Margin="855,140,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player2LeaderboardName" HorizontalAlignment="Left" Margin="855,185,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player3LeaderboardName" HorizontalAlignment="Left" Margin="855,230,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player4LeaderboardName" HorizontalAlignment="Left" Margin="855,275,0,0" TextWrapping="Wrap" Text="Player 4" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="textBlock2_Copy3" HorizontalAlignment="Left" Margin="855,95,0,0" TextWrapping="Wrap" Text="Leaderboard" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
         <TextBlock x:Name="textBlock2_Copy4" HorizontalAlignment="Left" Margin="1081,95,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy5" HorizontalAlignment="Left" Margin="1130,140,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy6" HorizontalAlignment="Left" Margin="1130,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy7" HorizontalAlignment="Left" Margin="1130,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock x:Name="textBlock2_Copy8" HorizontalAlignment="Left" Margin="1130,275,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player1LeaderboardScore" HorizontalAlignment="Left" Margin="1130,140,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player2LeaderboardScore" HorizontalAlignment="Left" Margin="1130,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player3LeaderboardScore" HorizontalAlignment="Left" Margin="1130,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock x:Name="_player4LeaderboardScore" HorizontalAlignment="Left" Margin="1130,275,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" Margin="140,380,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="435,380,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="_player3Name" HorizontalAlignment="Left" Margin="740,380,0,0" TextWrapping="Wrap" Text="Player 3" VerticalAlignment="Top" FontSize="30"/>

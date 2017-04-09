@@ -89,12 +89,12 @@ namespace _21CardGame
             if (_game.PlayRound() == 1)
             {
                 _player1Score++;
-                Player1Point.Text = _player1Score.ToString();
+                _player1Point.Text = _player1Score.ToString();
                 if(_player1Score == 5)
                 {
                     _txtHint.Text = "Player 1 Won!";
                     _playerOneScore++;
-                    playerOneScore.Text = _playerOneScore.ToString();
+                    _player1LeaderboardScore.Text = _playerOneScore.ToString();
                     ClearResults();
                 }
             }
@@ -102,12 +102,12 @@ namespace _21CardGame
             else if (_game.PlayRound() == 2)
             {
                 _player2Score++;
-                Player2Point.Text = _player2Score.ToString();
+                _player2Point.Text = _player2Score.ToString();
                 if (_player2Score == 5)
                 {
                     _txtHint.Text = "Player 2 Won!";
                     _playerTwoScore++;
-                    playerTwoScore.Text = _playerTwoScore.ToString();
+                    _player2LeaderboardScore.Text = _playerTwoScore.ToString();
                     ClearResults();
                 }
             }
@@ -115,12 +115,12 @@ namespace _21CardGame
             else if (_game.PlayRound() == 3)
             {
                 _player3Score++;
-                Player3Point.Text = _player3Score.ToString();
+                _player3Point.Text = _player3Score.ToString();
                 if (_player3Score == 5)
                 {
                     _txtHint.Text = "Player 3 Won!";
                     _playerThreeScore++;
-                    playerThreeScore.Text = _playerThreeScore.ToString();
+                    _player3LeaderboardScore.Text = _playerThreeScore.ToString();
                     ClearResults();
                 }
             }
@@ -128,12 +128,12 @@ namespace _21CardGame
             else if (_game.PlayRound() == 4)
             {
                 _player4Score++;
-                Player4Point.Text = _player4Score.ToString();
+                _player4Point.Text = _player4Score.ToString();
                 if (_player4Score == 5)
                 {
                     _txtHint.Text = "Player 4 Won!";
                     _playerFourScore++;
-                    playerFourScore.Text = _playerFourScore.ToString();
+                    _player4LeaderboardScore.Text = _playerFourScore.ToString();
                     ClearResults();
                 }
             }
@@ -213,10 +213,10 @@ namespace _21CardGame
             _player3Score = 0;
             _player4Score = 0;
 
-            Player1Point.Text = "0";
-            Player2Point.Text = "0";
-            Player3Point.Text = "0";
-            Player4Point.Text = "0";
+            _player1Point.Text = "0";
+            _player2Point.Text = "0";
+            _player3Point.Text = "0";
+            _player4Point.Text = "0";
         }
     }
 }
