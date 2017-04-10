@@ -34,7 +34,7 @@
                 <Button x:Name="_btnDealCards" Content="Deal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,190,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnDealCards" Background="Gray" BorderBrush="Black"/>
                 <Button x:Name="_btnFlipCards" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnFlipCards" IsEnabled="False" Background="Gray" BorderBrush="Black"/>
                 <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="185,140,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
-                <Button x:Name="_statsButton" Content="Check Stats" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1023,20,0,0" Width="155" Height="45" FontSize="25" Click="OnStatsCheck"/>
+                <Button x:Name="_statsButton" Content="Check Stats" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1023,20,0,0" Width="155" Height="45" FontSize="25" Click="OnStatsCheck" Background="Gray" BorderBrush="Black"/>
 
             </Grid>
 
