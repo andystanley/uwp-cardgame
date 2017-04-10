@@ -395,11 +395,11 @@ namespace _21CardGame
 
             // Flip the third card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            ShowCard(_cardPlayer3, _game.Player3Card);
+            ShowCard(_cardPlayer2, _game.Player2Card);
 
             // Flip the second card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            ShowCard(_cardPlayer2, _game.Player2Card);
+            ShowCard(_cardPlayer3, _game.Player3Card);
 
             // Flip the fourth card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
@@ -423,17 +423,17 @@ namespace _21CardGame
             _cardPlayer1.Source = new BitmapImage(new Uri(cardImgPath));
             _cardPlayer1.Opacity = 1.0;
 
-            // Display Player 3s Card
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            _card3.Visibility = Visibility.Collapsed;
-            _cardPlayer3.Source = new BitmapImage(new Uri(cardImgPath));
-            _cardPlayer3.Opacity = 1.0;
-
             // Display Player 2s Card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            _card2.Visibility = Visibility.Collapsed;
+            _card3.Visibility = Visibility.Collapsed;
             _cardPlayer2.Source = new BitmapImage(new Uri(cardImgPath));
             _cardPlayer2.Opacity = 1.0;
+
+            // Display Player 3s Card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            _card2.Visibility = Visibility.Collapsed;
+            _cardPlayer3.Source = new BitmapImage(new Uri(cardImgPath));
+            _cardPlayer3.Opacity = 1.0;
 
             // Display Player 4s Card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
