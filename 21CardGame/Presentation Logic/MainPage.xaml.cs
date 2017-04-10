@@ -29,14 +29,11 @@ namespace _21CardGame
         public static string _player3Name;
         public static string _player4Name;
 
+        public static string _difficulty;
+
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        public String Player1Name()
-        {
-            return _player1Text.Text;
         }
 
         private async void OnBeginGame(object sender, RoutedEventArgs e)
@@ -56,8 +53,12 @@ namespace _21CardGame
             }
             else if (_rbBeginner.Visibility == Visibility.Visible)
             {
-                // Navigates to the Game Page
                 Frame.Navigate(typeof(SinglePlayerGamePage));
+                SetDifficulty();
+
+                // Navigates to the Single Player Game Page
+                SinglePlayerGamePage gamepage = new SinglePlayerGamePage();
+                gamepage.InitializeComponent();
             }
             else
             {
@@ -108,6 +109,23 @@ namespace _21CardGame
             _player2Text.Visibility = Visibility.Visible;
             _player3Text.Visibility = Visibility.Visible;
             _player4Text.Visibility = Visibility.Visible;
+        }
+
+        private void SetDifficulty()
+        {
+            // Update the selected bettor label depending on which bettor is selected
+            if (_rbBeginner.IsChecked == true)
+            {
+                _difficulty = "Beginner";
+            }
+            else if (_rbAmateur.IsChecked == true)
+            {
+                _difficulty = "Amateur";
+            }
+            else if (_rbExpert.IsChecked == true)
+            {
+                _difficulty = "Expert";
+            }
         }
     }
 }

@@ -80,9 +80,6 @@ namespace _21CardGame.Presentation_Logic
 
         public void Rotate(string axis, ref Image target)
         {
-
-            //else
-            //{
             DoubleAnimation animation = new DoubleAnimation();
             animation.From = 0.0;
             animation.To = 360.0;
@@ -174,15 +171,7 @@ namespace _21CardGame.Presentation_Logic
             {
                 _houseScore++;
                 _housePoint.Text = _houseScore.ToString();
-                if (_houseScore == 5)
-                {
-                    _txtHint.Text = "Player 2 Won!";
-                    _playerHouseScore++;
-                    _playerOneLoss++;
-                    _player2LeaderboardScore.Text = _playerHouseScore.ToString();
-                    Rotate("Y", ref _cardHouse);
-                    ClearResults();
-                }
+                HouseDifficulty();
             }
 
             else if (_game.PlayRound() == 0)
@@ -310,6 +299,52 @@ namespace _21CardGame.Presentation_Logic
             _totalWins = (_player1LeaderboardNumber + _player2LeaderboardNumber);
             _playerOnePercentage = (Math.Round(_player1LeaderboardNumber / _totalWins * 100)).ToString() + "%";
             _playerTwoPercentage = (Math.Round(_player2LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+
+        }
+
+        private void OnLoaded(object sender, RoutedEventArgs e)
+        {
+            _txtDifficulty.Text = $"Difficulty: {MainPage._difficulty}";
+        }
+
+        private void HouseDifficulty()
+        {
+            if (_txtDifficulty.Text == "Difficulty: Beginner")
+            {
+                if (_houseScore == 6)
+                {
+                    _txtHint.Text = "Player 2 Won!";
+                    _playerHouseScore++;
+                    _playerOneLoss++;
+                    _player2LeaderboardScore.Text = _playerHouseScore.ToString();
+                    Rotate("Y", ref _cardHouse);
+                    ClearResults();
+                }
+            }
+            else if (_txtDifficulty.Text == "Difficulty: Amateur")
+            {
+                if (_houseScore == 5)
+                {
+                    _txtHint.Text = "Player 2 Won!";
+                    _playerHouseScore++;
+                    _playerOneLoss++;
+                    _player2LeaderboardScore.Text = _playerHouseScore.ToString();
+                    Rotate("Y", ref _cardHouse);
+                    ClearResults();
+                }
+            }
+            else
+            {
+                if (_houseScore == 4)
+                {
+                    _txtHint.Text = "House Won!";
+                    _playerHouseScore++;
+                    _playerOneLoss++;
+                    _player2LeaderboardScore.Text = _playerHouseScore.ToString();
+                    Rotate("Y", ref _cardHouse);
+                    ClearResults();
+                }
+            }
 
         }
     }

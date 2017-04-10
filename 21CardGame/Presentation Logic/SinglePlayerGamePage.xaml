@@ -5,7 +5,7 @@
     xmlns:local="using:_21CardGame.Presentation_Logic"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Loaded="OnLoaded">
 
     <Grid Background="#FF277714">
         <Viewbox>
@@ -35,6 +35,7 @@
                 <Button x:Name="_btnFlipCards" Content="Flip" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,275,0,0" Width="195" Height="55" FontSize="30" FontWeight="Bold" Click="OnFlipCards" IsEnabled="False" Background="Gray" BorderBrush="Black"/>
                 <TextBlock x:Name="_txtHint" HorizontalAlignment="Left" Margin="185,140,0,0" TextWrapping="Wrap" Text="Deal the cards to start" VerticalAlignment="Top" FontSize="30"/>
                 <Button x:Name="_statsButton" Content="Check Stats" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1023,20,0,0" Width="155" Height="45" FontSize="25" Click="OnStatsCheck" Background="Gray" BorderBrush="Black"/>
+                <TextBlock x:Name="_txtDifficulty" HorizontalAlignment="Left" Margin="30,156,0,0" TextWrapping="Wrap" Text="Difficulty:" VerticalAlignment="Top" FontStyle="Italic"/>
 
             </Grid>
 
