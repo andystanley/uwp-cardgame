@@ -51,7 +51,6 @@ namespace _21CardGame
         public static double _player3LeaderboardNumber;
         public static double _player4LeaderboardNumber;
 
-        public static string _totalWinsString;
         public static string _playerOnePercentage;
         public static string _playerTwoPercentage;
         public static string _playerThreePercentage;
@@ -469,10 +468,10 @@ namespace _21CardGame
             _player4LeaderboardNumber = Double.Parse(_player4LeaderboardScore.Text);
             _totalWins = _player1LeaderboardNumber + _player2LeaderboardNumber + _player3LeaderboardNumber + _player4LeaderboardNumber;
 
-            _playerOnePercentage = (_player1LeaderboardNumber / _totalWins * 100).ToString() + "%";
-            _playerTwoPercentage = (_player2LeaderboardNumber / _totalWins * 100).ToString() + "%";
-            _playerThreePercentage = (_player3LeaderboardNumber / _totalWins * 100).ToString() + "%";
-            _playerFourPercentage = (_player4LeaderboardNumber / _totalWins * 100).ToString() + "%";
+            _playerOnePercentage = (Math.Round(_player1LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+            _playerTwoPercentage = (Math.Round(_player2LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+            _playerThreePercentage = (Math.Round(_player3LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+            _playerFourPercentage = (Math.Round(_player4LeaderboardNumber / _totalWins * 100)).ToString() + "%";
 
             StatsPage statspage = new StatsPage();
             statspage.InitializeComponent();
