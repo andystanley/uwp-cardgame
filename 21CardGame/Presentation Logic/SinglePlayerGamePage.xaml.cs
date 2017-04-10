@@ -37,6 +37,24 @@ namespace _21CardGame.Presentation_Logic
 
         private int _playerOneScore;
         private int _playerHouseScore;
+        private int _playerOneLoss;
+        private int _playerTwoLoss;
+
+        public static string _singleName;
+        public static string _singleHouseName;
+        public static string _singleScore;
+        public static string _playerTwoScore;
+
+
+        public static string _playerOneLosses;
+        public static string _playerTwoLosses;
+
+        public static double _player1LeaderboardNumber;
+        public static double _player2LeaderboardNumber;
+
+        public static double _totalWins;
+        public static string _playerOnePercentage;
+        public static string _playerTwoPercentage; 
 
         public SinglePlayerGamePage()
         {
@@ -55,6 +73,9 @@ namespace _21CardGame.Presentation_Logic
 
             _playerOneScore = 0;
             _playerHouseScore = 0;
+
+            _playerOneLoss = 0;
+            _playerTwoLoss = 0;
         }
 
         public void Rotate(string axis, ref Image target)
@@ -142,6 +163,7 @@ namespace _21CardGame.Presentation_Logic
                 {
                     _txtHint.Text = "Player 1 Won!";
                     _playerOneScore++;
+                    _playerTwoLoss++;
                     _player1LeaderboardScore.Text = _playerOneScore.ToString();
                     Rotate("Y", ref _cardPlayer);
                     ClearResults();
@@ -156,6 +178,7 @@ namespace _21CardGame.Presentation_Logic
                 {
                     _txtHint.Text = "Player 2 Won!";
                     _playerHouseScore++;
+                    _playerOneLoss++;
                     _player2LeaderboardScore.Text = _playerHouseScore.ToString();
                     Rotate("Y", ref _cardHouse);
                     ClearResults();
@@ -201,7 +224,7 @@ namespace _21CardGame.Presentation_Logic
             _houseScore = 0;
 
             _playerPoint.Text = "0";
-            _playerPoint.Text = "0";
+            _housePoint.Text = "0";
         }
 
         private async void OnViewRules(object sender, RoutedEventArgs e)
@@ -266,6 +289,28 @@ namespace _21CardGame.Presentation_Logic
             _card1.Visibility = Visibility.Collapsed;
             _cardHouse.Source = new BitmapImage(new Uri(cardImgPath));
             _cardHouse.Opacity = 1.0;
+        }
+
+        private void OnStatsCheck(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(StatsSinglePage));
+
+            _singleName = _playerLeaderboardName.Text;
+            _singleHouseName = _houseLeaderboardName.Text;
+
+            _singleScore = _player1LeaderboardScore.Text;
+            _playerTwoScore = _player2LeaderboardScore.Text;
+
+            _playerOneLosses = _playerOneLoss.ToString();
+            _playerTwoLosses = _playerTwoLoss.ToString();
+
+            _player1LeaderboardNumber = Double.Parse(_player1LeaderboardScore.Text);
+            _player2LeaderboardNumber = Double.Parse(_player2LeaderboardScore.Text);
+
+            _totalWins = (_player1LeaderboardNumber + _player2LeaderboardNumber);
+            _playerOnePercentage = (Math.Round(_player1LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+            _playerTwoPercentage = (Math.Round(_player2LeaderboardNumber / _totalWins * 100)).ToString() + "%";
+
         }
     }
 }

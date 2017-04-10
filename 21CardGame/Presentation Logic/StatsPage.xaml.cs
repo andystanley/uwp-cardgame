@@ -24,6 +24,7 @@ namespace _21CardGame.Presentation_Logic
     /// 
     public sealed partial class StatsPage : Page
     {
+        SinglePlayerGamePage stat = new SinglePlayerGamePage();
         public StatsPage()
         {
             this.InitializeComponent();
@@ -36,6 +37,7 @@ namespace _21CardGame.Presentation_Logic
 
     private void OnStatsLoad(object sender, RoutedEventArgs e)
         {
+           
             _player1Name.Text = GamePage._stats1Name;
             _player2Name.Text = GamePage._stats2Name;
             _player3Name.Text = GamePage._stats3Name;
