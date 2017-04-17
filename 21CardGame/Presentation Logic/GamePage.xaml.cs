@@ -29,7 +29,30 @@ namespace _21CardGame
     /// </summary>
     public sealed partial class GamePage : Page
     {
+        // Create an instance of CardGame
+        private CardGame _game;
 
+        // Create an instance of the StoryBoard class to be used for rotation
+        private Storyboard rotation = new Storyboard();
+        private bool rotating = false;
+
+        // Declare field variables
+        private int _player1Score;
+        private int _player2Score;
+        private int _player3Score;
+        private int _player4Score;
+
+        private int _playerOneScore;
+        private int _playerTwoScore;
+        private int _playerThreeScore;
+        private int _playerFourScore;
+
+        private int _playerOneLoss;
+        private int _playerTwoLoss;
+        private int _playerThreeLoss;
+        private int _playerFourLoss;
+
+        // Declare static field variables that will be used in the stats page
         public static string _stats1Name;
         public static string _stats2Name;
         public static string _stats3Name;
@@ -56,40 +79,23 @@ namespace _21CardGame
         public static string _playerThreePercentage;
         public static string _playerFourPercentage;
 
-
-        private Storyboard rotation = new Storyboard();
-        private bool rotating = false;
-
-        private CardGame _game;
-
-        private int _player1Score;
-        private int _player2Score;
-        private int _player3Score;
-        private int _player4Score;
-
-        private int _playerOneScore;
-        private int _playerTwoScore;
-        private int _playerThreeScore;
-        private int _playerFourScore;
-
-        private int _playerOneLoss;
-        private int _playerTwoLoss;
-        private int _playerThreeLoss;
-        private int _playerFourLoss;
-
+        /// <summary>
+        /// GamePage constructor
+        /// </summary>
         public GamePage()
         {
             this.InitializeComponent();
-            
+
+            // Initialize the CardGame instance
+            _game = new CardGame();
+
             // Hide each of the players cards
             _cardPlayer1.Opacity = 0.0;
             _cardPlayer2.Opacity = 0.0;
             _cardPlayer3.Opacity = 0.0;
             _cardPlayer4.Opacity = 0.0;
 
-            //initialize the _game field variable
-            _game = new CardGame();
-
+            // Initialize the field variables
             _player1Score = 0;
             _player2Score = 0;
             _player3Score = 0;
@@ -162,9 +168,8 @@ namespace _21CardGame
                 rotation.Children.Add(animation4);
             }
 
-
-            //rotation.Begin();
-            //rotating = true;
+            rotation.Begin();
+            rotating = true;
 
         }
 
@@ -207,12 +212,79 @@ namespace _21CardGame
             // Enable the Deal Cards button
             _btnDealCards.IsEnabled = true;
 
+        }
+        private void ClearResults()
+        {
+            _player1Score = 0;
+            _player2Score = 0;
+            _player3Score = 0;
+            _player4Score = 0;
+
+            _player1Point.Text = "0";
+            _player2Point.Text = "0";
+            _player3Point.Text = "0";
+            _player4Point.Text = "0";
+        }
+
+        private async void OnViewRules(object sender, RoutedEventArgs e)
+        {
+            // Store the text from instructions.txt in a variable
+            string rules = File.ReadAllText("Assets/rules.txt");
+
+            // Display the instructions in a MessageDialog
+            var dialog = new MessageDialog(rules, "Game Rules");
+            await dialog.ShowAsync();
+        }
+
+        private async void OnNewGame(object sender, RoutedEventArgs e)
+        {
+            var dialog = new MessageDialog("Are you sure wish to start a new game?  This will reset the current game!");
+
+            dialog.Commands.Add(new UICommand("Yes"));
+            dialog.Commands.Add(new UICommand("Cancel"));
+
+            var result = await dialog.ShowAsync();
+
+            if (result.Label == "Yes")
+            {
+                // Navigates to the Game Page
+                this.Frame.Navigate(typeof(MainPage));
+            }
+        }
+        private async void FlipCardsAnimation()
+        {
+            // Flip the cards
+
+            // Wait for 1 second
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            
+            // Flip the first card
+            ShowCard(_cardPlayer1, _game.Player1Card);
+
+            // Flip the third card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer2, _game.Player2Card);
+
+            // Flip the second card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer3, _game.Player3Card);
+
+            // Flip the fourth card
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
+            ShowCard(_cardPlayer4, _game.Player4Card);
+
+            DetermineWinner();
+
+        }
+
+        private void DetermineWinner()
+        {
             //update the score
             if (_game.PlayRound() == 1)
             {
                 _player1Score++;
                 _player1Point.Text = _player1Score.ToString();
-                if(_player1Score == 5)
+                if (_player1Score == 5)
                 {
                     _txtHint.Text = "Player 1 Won!";
                     _playerOneScore++;
@@ -275,12 +347,6 @@ namespace _21CardGame
                     ClearResults();
                 }
             }
-
-            else if(_game.PlayRound()== 0)
-            {
-                
-            }
-
         }
 
         private void ShowCard(Image imageCtrl, Card card)
@@ -342,67 +408,6 @@ namespace _21CardGame
                 _player4Name.Text = MainPage._player4Name;
                 _player4LeaderboardName.Text = MainPage._player4Name;
             }
-
-        }
-        private void ClearResults()
-        {
-            _player1Score = 0;
-            _player2Score = 0;
-            _player3Score = 0;
-            _player4Score = 0;
-
-            _player1Point.Text = "0";
-            _player2Point.Text = "0";
-            _player3Point.Text = "0";
-            _player4Point.Text = "0";
-        }
-
-        private async void OnViewRules(object sender, RoutedEventArgs e)
-        {
-            // Store the text from instructions.txt in a variable
-            string rules = File.ReadAllText("Assets/rules.txt");
-
-            // Display the instructions in a MessageDialog
-            var dialog = new MessageDialog(rules, "Game Rules");
-            await dialog.ShowAsync();
-        }
-
-        private async void OnNewGame(object sender, RoutedEventArgs e)
-        {
-            var dialog = new MessageDialog("Are you sure wish to start a new game?  This will reset the current game!");
-
-            dialog.Commands.Add(new UICommand("Yes"));
-            dialog.Commands.Add(new UICommand("Cancel"));
-
-            var result = await dialog.ShowAsync();
-
-            if (result.Label == "Yes")
-            {
-                // Navigates to the Game Page
-                this.Frame.Navigate(typeof(MainPage));
-            }
-        }
-        private async void FlipCardsAnimation()
-        {
-            // Flip the cards
-
-            // Wait for 1 second
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            
-            // Flip the first card
-            ShowCard(_cardPlayer1, _game.Player1Card);
-
-            // Flip the third card
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            ShowCard(_cardPlayer2, _game.Player2Card);
-
-            // Flip the second card
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            ShowCard(_cardPlayer3, _game.Player3Card);
-
-            // Flip the fourth card
-            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
-            ShowCard(_cardPlayer4, _game.Player4Card);
         }
 
         private async void DealCardsAnimation()
