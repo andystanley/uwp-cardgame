@@ -7,32 +7,29 @@ using System.Threading.Tasks;
 namespace UniversalCardGame
 {
     /// <summary>
-    /// Represents a card deck which contains a list of cards that are to be played
-    /// in a card game. The Card Deck allows access to the cards and implements basic
-    /// operations of extracting, adding, shuffling, exchanging cards.
+    /// card deck class created that stores list of all the cards.
+    /// And allows access to add, shuffle and extract cards.
     /// </summary>
     class CardDeck
     {
         /// <summary>
-        /// The list of cards that are in the deck to be played
-        /// (read as "List of Cards")
+        /// The list of cards that are in the deck
         /// </summary>
         private List<Card> _cardList;
 
-        //define the maximum possible card value MAX_CARD_VALUE = 13
+        //define the maximum possible card value MAX_CARD_VALUE = 13 or ACE
         private const int MAX_CARD_VALUE = 13;
 
         //define the maximum suit in the deck MAX_SUIT_COUNT = 4
         private const int MAX_SUIT_COUNT = 4;
 
         /// <summary>
-        /// Randomizer object used by the deck to extract random cards and shuffle cards
+        /// Randomizer object to extract random cards and shuffle cards
         /// </summary>
         private static Random s_randomizer;
 
         /// <summary>
-        /// Declare the static constructor responsible for initializing all
-        /// static field variables
+        ///constructor for intializing static field variables
         /// </summary>
         static CardDeck()
         {
@@ -40,14 +37,14 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// Constructor for CardDeck objects, creates a full card deck of
-        /// 52 cards unshuffled
+        /// Constructor for CardDeck creates card deck of
+        /// 52 cards 
         /// </summary>
         public CardDeck()
         {
             _cardList = new List<Card>();
 
-            //fill the card list with card objects
+            //fills the card list with card objects
             CreateCards();
         }
 
@@ -84,32 +81,22 @@ namespace UniversalCardGame
                 //obtain the suit for the current index
                 CardSuit suit = (CardSuit)iSuit;
 
-                //create the cards for the current suit. How?
                 //go through every card value and create cards
                 for (byte value = 1; value <= MAX_CARD_VALUE; value++)
                 {
                     //create the card
                     Card card = new Card(value, suit);
 
-                    //add the card to the list of the deck
+                    //add the card to the list
                     _cardList.Add(card);
                 }
             }
         }
 
-        /// <summary>
-        /// Shuffles the card deck using a Fisher-Yates shuffle algorithm
-        /// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
-        /// </summary>
         public void ShuffleCards()
         {
             //create a random generator object 
             Random randomizer = new Random();
-
-            //TODO: learn about the Random class (press F1 with the cursor
-            //has to be on Random.
-
-            //TODO: implement the shuffle algorithm with a for loop
         }
 
         /// <summary>
@@ -117,13 +104,12 @@ namespace UniversalCardGame
         /// </summary>
         public string PrintCards()
         {
-            //TODO: use a regular for loop to go through all the cards
-            //in the list of cards N(_cardList) and create a string
-            //output and return it
+            //sets output to empty
             string output = "";
 
             foreach (Card card in _cardList)
             {
+
                 //accumulate the cards in the output variable
                 output += $"{card}\n";
             }
@@ -131,7 +117,6 @@ namespace UniversalCardGame
             return output;
         }
 
-        //Implement GetPairOfCards that extracts two random cards out of the deck. 
         //The cards are removed from the deck
         public bool GetCards(out Card cardOne, out Card cardTwo, out Card cardThree, out Card cardFour)
         {
@@ -177,7 +162,7 @@ namespace UniversalCardGame
 
                 //extract four random cards
 
-                //extract the second card
+                //extract the first card
                 int randCardOneIndex = CardDeck.Randomizer.Next(_cardList.Count);
                 cardOne = _cardList[randCardOneIndex];
                 _cardList.RemoveAt(randCardOneIndex);
@@ -199,14 +184,6 @@ namespace UniversalCardGame
 
                 return true;
             }
-        }
-
-        //Implement ExchangeCards that receives two cards and exchanges them with each other
-        public void ExchangeCards( ref Card cardOne,  ref Card cardTwo)
-        {
-            Card temp = cardOne;
-            cardOne = cardTwo;
-            cardTwo = temp;
         }
     }
 }

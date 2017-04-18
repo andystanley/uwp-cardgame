@@ -31,7 +31,7 @@
                 </Grid>
             </Border>
             <TextBlock x:Name="_buttonWins" HorizontalAlignment="Left" Margin="391,130,0,0" TextWrapping="Wrap" Text="Wins" VerticalAlignment="Top" FontSize="30"/>
-            <TextBlock x:Name="_playerName" HorizontalAlignment="Left" Margin="180,130,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="-2.813,0.491" SelectionChanged="textBlock2_Copy_SelectionChanged"/>
+            <TextBlock x:Name="_playerName" HorizontalAlignment="Left" Margin="180,130,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="-2.813,0.491"/>
             <TextBlock x:Name="_buttonLosses" HorizontalAlignment="Left" Margin="543,130,0,0" TextWrapping="Wrap" Text="Losses" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
             <TextBlock x:Name="_winPercentage" HorizontalAlignment="Left" Margin="739,130,0,0" TextWrapping="Wrap" Text="Win %" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="2.352,0.491"/>
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="High Trick Pony" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" HorizontalAlignment="Center" Width="337" Height="60" Margin="471.5,10,471.5,0"/>

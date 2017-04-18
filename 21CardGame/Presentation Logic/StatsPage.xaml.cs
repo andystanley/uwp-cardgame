@@ -30,38 +30,61 @@ namespace _21CardGame.Presentation_Logic
             this.InitializeComponent();
         }
 
-        private void textBlock2_Copy_SelectionChanged(object sender, RoutedEventArgs e)
-        {
-
-        }  
-
     private void OnStatsLoad(object sender, RoutedEventArgs e)
         {
            
+            //updates players names in this page to the names used in the game
             _player1Name.Text = GamePage._stats1Name;
             _player2Name.Text = GamePage._stats2Name;
             _player3Name.Text = GamePage._stats3Name;
             _player4Name.Text = GamePage._stats4Name;
 
+            //updates wins in this page according to wins in leadership board
+            //on gamePage
             _player1Wins.Text = GamePage._stats1Wins;
             _player2Wins.Text = GamePage._stats2Wins;
             _player3Wins.Text = GamePage._stats3Wins;
             _player4Wins.Text = GamePage._stats4Wins;
 
+            //updates losses in this page according to losses from gamePage
             _player1Loss.Text = GamePage._stats1Loss;
             _player2Loss.Text = GamePage._stats2Loss;
             _player3Loss.Text = GamePage._stats3Loss;
             _player4Loss.Text = GamePage._stats4Loss;
 
+            //adds in winning percentages of each player based off calculations from gamePage
             _player1WinPercent.Text = GamePage._playerOnePercentage;
             _player2WinPercent.Text = GamePage._playerTwoPercentage;
             _player3WinPercent.Text = GamePage._playerThreePercentage;
             _player4WinPercent.Text = GamePage._playerFourPercentage;
 
+            //percentage win automatically sets to NAN%
+            //sets it to 0 instead
+            if (_player1WinPercent.Text == "NaN%")
+            {
+                _player1WinPercent.Text = "0%";
+            }
+
+            if (_player2WinPercent.Text == "NaN%")
+            {
+                _player2WinPercent.Text = "0%";
+            }
+
+            if (_player3WinPercent.Text == "NaN%")
+            {
+                _player3WinPercent.Text = "0%";
+            }
+
+            if (_player4WinPercent.Text == "NaN%")
+            {
+                _player4WinPercent.Text = "0%";
+            }
+
         }
 
         private void onGoBack(object sender, RoutedEventArgs e)
         {
+            //return to gamePage
             Frame.Navigate(typeof(GamePage));
         }
     }
