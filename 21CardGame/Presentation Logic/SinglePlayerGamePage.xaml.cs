@@ -147,39 +147,6 @@ namespace _21CardGame.Presentation_Logic
 
             // Enable the Deal Cards button
             _btnDealCards.IsEnabled = true;
-
-            // Update the score and labels if the player won
-            if (_game.PlayRound() == 1)
-            {
-                _txtHint.Text = "Player Won Round!";
-                _playerScore++;
-                _playerPoint.Text = _playerScore.ToString();
-                if (_playerScore == 5)
-                {
-                    _txtHint.Text = "Player Won!";
-                    _playerOneScore++;
-                    _houseLoss++;
-                    _player1LeaderboardScore.Text = _playerOneScore.ToString();
-                    //Rotate("Y", ref _cardPlayer);
-                    ClearResults();
-                }
-            }
-
-            // Update the score and labels if house won
-            else if (_game.PlayRound() == 2)
-            {
-                _txtHint.Text = "House Won Round!";
-                _houseScore++;
-                _housePoint.Text = _houseScore.ToString();
-                HouseDifficulty();
-
-            }
-
-            // Update label if the round was a draw
-            else if (_game.PlayRound() == 0)
-            {
-                _txtHint.Text = "Round was a draw";
-            }
         }
 
         /// <summary>
@@ -294,6 +261,47 @@ namespace _21CardGame.Presentation_Logic
             // Flip the house card
             await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1));
             ShowCard(_cardHouse, _game.HouseCard);
+
+            DetermineWinner();
+        }
+
+        /// <summary>
+        /// Method to determine the winner
+        /// </summary>
+        private void DetermineWinner()
+        {
+            // Update the score and labels if the player won
+            if (_game.PlayRound() == 1)
+            {
+                _txtHint.Text = "Player Won Round!";
+                _playerScore++;
+                _playerPoint.Text = _playerScore.ToString();
+                if (_playerScore == 5)
+                {
+                    _txtHint.Text = "Player Won!";
+                    _playerOneScore++;
+                    _houseLoss++;
+                    _player1LeaderboardScore.Text = _playerOneScore.ToString();
+                    //Rotate("Y", ref _cardPlayer);
+                    ClearResults();
+                }
+            }
+
+            // Update the score and labels if house won
+            else if (_game.PlayRound() == 2)
+            {
+                _txtHint.Text = "House Won Round!";
+                _houseScore++;
+                _housePoint.Text = _houseScore.ToString();
+                HouseDifficulty();
+
+            }
+
+            // Update label if the round was a draw
+            else if (_game.PlayRound() == 0)
+            {
+                _txtHint.Text = "Round was a draw";
+            }
         }
 
         /// <summary>
