@@ -41,6 +41,16 @@ namespace _21CardGame.Presentation_Logic
             _player1WinPercent.Text = SinglePlayerGamePage._playerOnePercentage;
             _player2WinPercent.Text = SinglePlayerGamePage._playerTwoPercentage;
 
+            if (_player1WinPercent.Text == "NaN%")
+            {
+                _player1WinPercent.Text = "0%";
+            }
+
+            if (_player2WinPercent.Text == "NaN%")
+            {
+                _player2WinPercent.Text = "0%";
+            }
+
 
         }
 

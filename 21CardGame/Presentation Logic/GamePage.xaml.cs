@@ -324,7 +324,7 @@ namespace _21CardGame
 
             else if(_game.PlayRound()== 0)
             {
-                
+                _txtHint.Text = "It's a draw!";
             }
 
         }

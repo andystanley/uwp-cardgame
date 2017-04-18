@@ -15,27 +15,27 @@ namespace UniversalCardGame
     struct GameScore
     {
         /// <summary>
-        /// The score value for the player
+        /// field variable for score of player 1
         /// </summary>
         private int _player1Score;
 
         /// <summary>
-        /// The score value for the house
+        /// field variable for score value of player 2
         /// </summary>
         private int _player2Score;
 
         /// <summary>
-        /// The score value for the house
+        /// field variable for score value of player 3
         /// </summary>
         private int _player3Score;
 
         /// <summary>
-        /// The score value for the house
+        /// field variable for score value of player 4
         /// </summary>
         private int _player4Score;
 
         /// <summary>
-        /// The score value for the player. The property provides access
+        /// The score value for player 1. The property provides access
         /// to the internal field variable
         /// </summary>
         public int Player1Score
@@ -45,8 +45,7 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// The score value for Player 2. The property provides access
-        /// to the internal field variable
+        /// The score value for Player 2.
         /// </summary>
         public int Player2Score
         {
@@ -55,8 +54,7 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// The score value for Player 3. The property provides access
-        /// to the internal field variable
+        /// The score value for Player 3.
         /// </summary>
         public int Player3Score
         {
@@ -65,8 +63,7 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// The score value for Player 4. The property provides access
-        /// to the internal field variable
+        /// The score value for Player 4. 
         /// </summary>
         public int Player4Score
         {
@@ -77,10 +74,9 @@ namespace UniversalCardGame
     }
 
     /// <summary>
-    /// Represents a basic single player card game in which the user plays
-    /// against the house to score a higher points by winning tricks. A trick
-    /// is won by the user with a card with a higher value. The player has the
-    /// ability to switch cards with the house before playing each hand.
+    /// Represents a four player card game in which the user(s) play
+    /// against eachother to score a higher points by winning tricks. A trick
+    /// is won by the user with a card with a higher value.
     /// </summary>
     class CardGame
     {
@@ -132,7 +128,7 @@ namespace UniversalCardGame
         }
 
         /// <summary>
-        /// The card in the hand of the player (currently being played). Value
+        /// The card in the hand of players. Value
         /// can obtained but not set because it can only be set by playing the game
         /// </summary>
         public Card Player1Card
@@ -155,23 +151,10 @@ namespace UniversalCardGame
             get { return _player4Card; }
         }
 
-        /// <summary>
-        /// Read-only property to check if the game is over
-        /// </summary>
-        public bool IsOver
-        {
-            get { return _cardDeck.CardCount == 0; } 
-        }
-
-        /// <summary>
-        /// Plays the game rounds until no more cards are left keeping the score.
-        /// </summary>
         public void StartGame()
         {
             //shuffle the cards
             _cardDeck.ShuffleCards();
-
-            //What else needs to happen to (Re)start the game?
         }
 
         public sbyte PlayRound()
@@ -190,7 +173,7 @@ namespace UniversalCardGame
             }
             else if (player2CardRank > player1CardRank && player2CardRank > player3CardRank && player2CardRank > player4CardRank)
             {
-                //playre2 won the round
+                //player2 won the round
                 return 2;
             }
 
