@@ -326,13 +326,17 @@ namespace _21CardGame.Presentation_Logic
             _playerWinsDouble = Double.Parse(_player1LeaderboardScore.Text);
             _houseWinsDouble = Double.Parse(_player2LeaderboardScore.Text);
 
+            _totalWins = (_playerWinsDouble + _houseWinsDouble);
+            _playerPercentage = (Math.Round(_playerWinsDouble / _totalWins * 100)).ToString() + "%";
+            _housePercentage = (Math.Round(_houseWinsDouble / _totalWins * 100)).ToString() + "%";
+
         }
 
         private void ClearResults()
         {
             //sets the values of the scores to 0
             //clears results
-            _player1Score = 0;
+            _playerScore = 0;
             _houseScore = 0;
 
             //set the labels back to 0

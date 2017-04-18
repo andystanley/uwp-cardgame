@@ -44,8 +44,8 @@ namespace _21CardGame.Presentation_Logic
             _player1Loss.Text = SinglePlayerGamePage._playerOneLosses;
             _player2Loss.Text = SinglePlayerGamePage._playerTwoLosses;
 
-            _player1WinPercent.Text = SinglePlayerGamePage._playerOnePercentage;
-            _player2WinPercent.Text = SinglePlayerGamePage._playerTwoPercentage;
+            _player1WinPercent.Text = SinglePlayerGamePage._playerPercentage;
+            _player2WinPercent.Text = SinglePlayerGamePage._housePercentage;
 
             if (_player1WinPercent.Text == "NaN%")
             {
@@ -57,7 +57,7 @@ namespace _21CardGame.Presentation_Logic
                 _player2WinPercent.Text = "0%";
             }
 
-
+            
         }
 
         /// <summary>
