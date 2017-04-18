@@ -22,30 +22,40 @@ namespace _21CardGame.Presentation_Logic
     /// </summary>
     public sealed partial class StatsSinglePage : Page
     {
+        /// <summary>
+        /// Initialize the stats page
+        /// </summary>
         public StatsSinglePage()
         {
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// On Stats page loaded
+        /// </summary>
+        /// <param name="sender">page loaded</param>
+        /// <param name="e"></param>
         private void OnStatsLoad(object sender, RoutedEventArgs e)
         {
-            _player1Name.Text = SinglePlayerGamePage._singleName;
-            _player2Name.Text = SinglePlayerGamePage._singleHouseName;
-
-            _player1Wins.Text = SinglePlayerGamePage._singleScore;
-            _player2Wins.Text = SinglePlayerGamePage._playerTwoScore;
+            // Set the fields to the values taken from Game page
+            _player1Wins.Text = SinglePlayerGamePage._playerWins;
+            _player2Wins.Text = SinglePlayerGamePage._houseWins;
 
             _player1Loss.Text = SinglePlayerGamePage._playerOneLosses;
             _player2Loss.Text = SinglePlayerGamePage._playerTwoLosses;
 
-            _player1WinPercent.Text = SinglePlayerGamePage._playerOnePercentage;
-            _player2WinPercent.Text = SinglePlayerGamePage._playerTwoPercentage;
-
-
+            _player1WinPercent.Text = SinglePlayerGamePage._playerPercentage;
+            _player2WinPercent.Text = SinglePlayerGamePage._housePercentage;
         }
 
+        /// <summary>
+        /// Method for when the user clicks go back
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void onGoBack(object sender, RoutedEventArgs e)
         {
+            // Navigate back to the game
             Frame.Navigate(typeof(SinglePlayerGamePage));
         }
     }

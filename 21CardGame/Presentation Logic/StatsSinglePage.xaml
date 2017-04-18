@@ -10,8 +10,8 @@
     <Grid Background="#FF277714">
         <Border Margin="149,203,132,250" BorderBrush="Black" BorderThickness="2" Background="Gray">
             <Grid>
-                <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" FontSize="30" Margin="10,0,0,0"/>
-                <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" FontSize="30"/>
+                <TextBlock x:Name="_player1Name" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="30" Margin="10,0,0,0"/>
+                <TextBlock x:Name="_player2Name" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="House" VerticalAlignment="Top" FontSize="30"/>
                 <TextBlock x:Name="_player1Wins" HorizontalAlignment="Left" Margin="265,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
                 <TextBlock x:Name="_player2Wins" HorizontalAlignment="Left" Margin="265,45,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
                 <TextBlock x:Name="_player1Loss" HorizontalAlignment="Left" Margin="427,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="30"/>
