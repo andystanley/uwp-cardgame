@@ -72,7 +72,6 @@ namespace _21CardGame.Business_Logic.SinglePlayer
             //initialize the current player card
             _playerCard = null;
             _houseCard = null;
-
         }
 
         /// <summary>
