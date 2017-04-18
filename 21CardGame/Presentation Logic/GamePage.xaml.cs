@@ -29,28 +29,43 @@ namespace _21CardGame
     /// </summary>
     public sealed partial class GamePage : Page
     {
-
+        /// <summary>
+        /// fields variables for the name of the players used for leadership scoreboard
+        /// </summary>
         public static string _stats1Name;
         public static string _stats2Name;
         public static string _stats3Name;
         public static string _stats4Name;
 
+        /// <summary>
+        /// field variables for keeping track of wins for the stats page
+        /// </summary>
         public static string _stats1Wins;
         public static string _stats2Wins;
         public static string _stats3Wins;
         public static string _stats4Wins;
 
+        /// <summary>
+        /// field variables for tracking losses of each player
+        /// </summary>
         public static string _stats1Loss;
         public static string _stats2Loss;
         public static string _stats3Loss;
         public static string _stats4Loss;
 
+        /// <summary>
+        /// field variables for converting the numbers on leadership board to doubles
+        /// to be used in StatsPage
+        /// </summary>
         public static double _totalWins;
         public static double _player1LeaderboardNumber;
         public static double _player2LeaderboardNumber;
         public static double _player3LeaderboardNumber;
         public static double _player4LeaderboardNumber;
 
+        /// <summary>
+        /// field variables for keeping tracking of winning percentage of each player
+        /// </summary>
         public static string _playerOnePercentage;
         public static string _playerTwoPercentage;
         public static string _playerThreePercentage;
@@ -60,18 +75,31 @@ namespace _21CardGame
         private Storyboard rotation = new Storyboard();
         private bool rotating = false;
 
+        /// <summary>
+        /// new instance of CardGame
+        /// </summary>
         private CardGame _game;
 
+        /// <summary>
+        /// field variables for the label of each player 
+        /// that keeps track of wins per round
+        /// </summary>
         private int _player1Score;
         private int _player2Score;
         private int _player3Score;
         private int _player4Score;
 
+        /// <summary>
+        /// field variables for storing wins per round
+        /// </summary>
         private int _playerOneScore;
         private int _playerTwoScore;
         private int _playerThreeScore;
         private int _playerFourScore;
 
+        /// <summary>
+        /// field variables for storing losses per round
+        /// </summary>
         private int _playerOneLoss;
         private int _playerTwoLoss;
         private int _playerThreeLoss;
@@ -90,16 +118,19 @@ namespace _21CardGame
             //initialize the _game field variable
             _game = new CardGame();
 
+            ///initialize the labels to 0
             _player1Score = 0;
             _player2Score = 0;
             _player3Score = 0;
             _player4Score = 0;
 
+            //intialize the actual scores to 0
             _playerOneScore = 0;
             _playerTwoScore = 0;
             _playerThreeScore = 0;
             _playerFourScore = 0;
 
+            //initialize the losses to 0
             _playerOneLoss = 0;
             _playerTwoLoss = 0;
             _playerThreeLoss = 0;
@@ -168,6 +199,13 @@ namespace _21CardGame
 
         }
 
+        /// <summary>
+        /// Method created for when cards are dealt
+        /// Deal card animation is initiated
+        /// cards are dealt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnDealCards(object sender, RoutedEventArgs e)
         {
             if (rotating)
@@ -212,6 +250,8 @@ namespace _21CardGame
             {
                 _player1Score++;
                 _player1Point.Text = _player1Score.ToString();
+                //if player 1 reaches 5, then update leaderboard to add 
+                //a win. Clears result.
                 if(_player1Score == 5)
                 {
                     _txtHint.Text = "Player 1 Won!";
@@ -229,6 +269,8 @@ namespace _21CardGame
             {
                 _player2Score++;
                 _player2Point.Text = _player2Score.ToString();
+                //if player 2 reaches 5, then update leaderboard to add 
+                //a win. Clears result.
                 if (_player2Score == 5)
                 {
                     _txtHint.Text = "Player 2 Won!";
@@ -246,6 +288,8 @@ namespace _21CardGame
             {
                 _player3Score++;
                 _player3Point.Text = _player3Score.ToString();
+                //if player 3 reaches 5, then update leaderboard to add 
+                //a win. Clears result.
                 if (_player3Score == 5)
                 {
                     _txtHint.Text = "Player 3 Won!";
@@ -263,6 +307,8 @@ namespace _21CardGame
             {
                 _player4Score++;
                 _player4Point.Text = _player4Score.ToString();
+                //if player 4 reaches 5, then update leaderboard to add 
+                //a win. Clears result.
                 if (_player4Score == 5)
                 {
                     _txtHint.Text = "Player 4 Won!";
@@ -298,22 +344,30 @@ namespace _21CardGame
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            //if player does not put name in mainpage
+            //it automatically sets it to Player
             if (MainPage._player1Name == "")
             {
                 _player1Name.Text = "Player";
                 _player1LeaderboardName.Text = "Player";
             }
+            //else set the name of the player to the name the player
+            //typed in MainPage
             else
             {
                 _player1Name.Text = MainPage._player1Name;
                 _player1LeaderboardName.Text = MainPage._player1Name;
             }
 
+            //if player does not put name in mainpage
+            //it automatically sets it to CPU2
             if (MainPage._player2Name == "")
             {
                 _player2Name.Text = "CPU 2";
                 _player2LeaderboardName.Text = "CPU 2";
             }
+            //else set the name of the player to the name the player
+            //typed in MainPage
             else
             {
                 _player2Name.Text = MainPage._player2Name;
@@ -321,22 +375,30 @@ namespace _21CardGame
 
             }
 
+            //if player does not put name in mainpage
+            //it automatically sets it to CPU3
             if (MainPage._player3Name == "")
             {
                 _player3Name.Text = "CPU 3";
                 _player3LeaderboardName.Text = "CPU 3";
             }
+            //else set the name of the player to the name the player
+            //typed in MainPage
             else
             {
                 _player3Name.Text = MainPage._player3Name;
                 _player3LeaderboardName.Text = MainPage._player3Name;
             }
 
+            //if player does not put name in mainpage
+            //it automatically sets it to CPU4
             if (MainPage._player4Name == "")
             {
                 _player4Name.Text = "CPU 4";
                 _player4LeaderboardName.Text = "CPU 4";
             }
+            //else set the name of the player to the name the player
+            //typed in MainPage
             else
             {
                 _player4Name.Text = MainPage._player4Name;
@@ -346,11 +408,14 @@ namespace _21CardGame
         }
         private void ClearResults()
         {
+            //sets the values of the scores to 0
+            //clears results
             _player1Score = 0;
             _player2Score = 0;
             _player3Score = 0;
             _player4Score = 0;
 
+            //set the labels back to 0
             _player1Point.Text = "0";
             _player2Point.Text = "0";
             _player3Point.Text = "0";
@@ -441,38 +506,51 @@ namespace _21CardGame
             _cardPlayer4.Opacity = 1.0;
         }
 
+        /// <summary>
+        /// event handler created for checking stats of the game
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnStatsCheck(object sender, RoutedEventArgs e)
         {
             
             // Navigates to the Game Page
             this.Frame.Navigate(typeof(StatsPage));
 
+            //assign values of the names to new variables
+            //to be used in statsPage
             _stats1Name = _player1Name.Text;
             _stats2Name = _player2Name.Text;
             _stats3Name = _player3Name.Text;
             _stats4Name = _player4Name.Text;
 
+            //stores values on scoreboard in new variables
             _stats1Wins = _player1LeaderboardScore.Text;
             _stats2Wins = _player2LeaderboardScore.Text;
             _stats3Wins = _player3LeaderboardScore.Text;
             _stats4Wins = _player4LeaderboardScore.Text;
 
+            //converts losses to strings and stores them in new variables
             _stats1Loss = _playerOneLoss.ToString();
             _stats2Loss = _playerTwoLoss.ToString();
             _stats3Loss = _playerThreeLoss.ToString();
             _stats4Loss = _playerFourLoss.ToString();
 
+            //converts scores on leadership board to double and stores them in new variables
             _player1LeaderboardNumber = Double.Parse(_player1LeaderboardScore.Text);
             _player2LeaderboardNumber = Double.Parse(_player2LeaderboardScore.Text);
             _player3LeaderboardNumber = Double.Parse(_player3LeaderboardScore.Text);
             _player4LeaderboardNumber = Double.Parse(_player4LeaderboardScore.Text);
+            //variable that stores total value of all the wins
             _totalWins = _player1LeaderboardNumber + _player2LeaderboardNumber + _player3LeaderboardNumber + _player4LeaderboardNumber;
 
+            //percentage variables that calculate each players winning percentage based on total wins
             _playerOnePercentage = (Math.Round(_player1LeaderboardNumber / _totalWins * 100)).ToString() + "%";
             _playerTwoPercentage = (Math.Round(_player2LeaderboardNumber / _totalWins * 100)).ToString() + "%";
             _playerThreePercentage = (Math.Round(_player3LeaderboardNumber / _totalWins * 100)).ToString() + "%";
             _playerFourPercentage = (Math.Round(_player4LeaderboardNumber / _totalWins * 100)).ToString() + "%";
 
+            //initializes statsPage
             StatsPage statspage = new StatsPage();
             statspage.InitializeComponent();
         }
