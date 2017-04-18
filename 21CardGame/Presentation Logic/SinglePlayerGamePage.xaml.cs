@@ -207,14 +207,6 @@ namespace _21CardGame.Presentation_Logic
                 _playerLeaderboardName.Text = MainPage._player1Name;
             }
         }
-        private void ClearResults()
-        {
-            _player1Score = 0;
-            _houseScore = 0;
-
-            _playerPoint.Text = "0";
-            _housePoint.Text = "0";
-        }
 
         private async void OnViewRules(object sender, RoutedEventArgs e)
         {
@@ -300,6 +292,18 @@ namespace _21CardGame.Presentation_Logic
             _playerOnePercentage = (Math.Round(_player1LeaderboardNumber / _totalWins * 100)).ToString() + "%";
             _playerTwoPercentage = (Math.Round(_player2LeaderboardNumber / _totalWins * 100)).ToString() + "%";
 
+        }
+
+        private void ClearResults()
+        {
+            //sets the values of the scores to 0
+            //clears results
+            _player1Score = 0;
+            _houseScore = 0;
+
+            //set the labels back to 0
+            _playerPoint.Text = "0";
+            _housePoint.Text = "0";
         }
 
         private void OnLoaded(object sender, RoutedEventArgs e)
