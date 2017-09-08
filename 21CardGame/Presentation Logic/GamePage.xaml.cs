@@ -293,12 +293,13 @@ namespace _21CardGame
             if (_game.PlayRound() == 1)
             {
                 _player1Score++;
+                _txtHint.Text = $"{_player1Name.Text} Won The Round!";
                 _player1Point.Text = _player1Score.ToString();
                 //if player 1 reaches 5, then update leaderboard to add 
                 //a win. Clears result.
                 if(_player1Score == 5)
                 {
-                    _txtHint.Text = "Player 1 Won!";
+                    _txtHint.Text = $"{_player1Name.Text} Won The Game!";
                     _playerOneScore++;
                     _playerTwoLoss++;
                     _playerThreeLoss++;
@@ -312,12 +313,13 @@ namespace _21CardGame
             else if (_game.PlayRound() == 2)
             {
                 _player2Score++;
+                _txtHint.Text = $"{_player2Name.Text} Won The Round!";
                 _player2Point.Text = _player2Score.ToString();
                 //if player 2 reaches 5, then update leaderboard to add 
                 //a win. Clears result.
                 if (_player2Score == 5)
                 {
-                    _txtHint.Text = "Player 2 Won!";
+                    _txtHint.Text = $"{_player2Name.Text} Won The Game!";
                     _playerTwoScore++;
                     _playerOneLoss++;
                     _playerThreeLoss++;
@@ -331,12 +333,13 @@ namespace _21CardGame
             else if (_game.PlayRound() == 3)
             {
                 _player3Score++;
+                _txtHint.Text = $"{_player3Name.Text} Won The Round!";
                 _player3Point.Text = _player3Score.ToString();
                 //if player 3 reaches 5, then update leaderboard to add 
                 //a win. Clears result.
                 if (_player3Score == 5)
                 {
-                    _txtHint.Text = "Player 3 Won!";
+                    _txtHint.Text = $"{_player3Name.Text} Won The Game!";
                     _playerThreeScore++;
                     _playerTwoLoss++;
                     _playerOneLoss++;
@@ -350,12 +353,13 @@ namespace _21CardGame
             else if (_game.PlayRound() == 4)
             {
                 _player4Score++;
+                _txtHint.Text = $"{_player4Name.Text} Won The Round!";
                 _player4Point.Text = _player4Score.ToString();
                 //if player 4 reaches 5, then update leaderboard to add 
                 //a win. Clears result.
                 if (_player4Score == 5)
                 {
-                    _txtHint.Text = "Player 4 Won!";
+                    _txtHint.Text = $"{_player4Name.Text} Won The Game!"; 
                     _playerFourScore++;
                     _playerTwoLoss++;
                     _playerThreeLoss++;
