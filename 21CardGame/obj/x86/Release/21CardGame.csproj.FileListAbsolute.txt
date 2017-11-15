@@ -1,0 +1,508 @@
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\App.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Presentation Logic\GamePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Presentation Logic\MainPage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Presentation Logic\SinglePlayerGamePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Presentation Logic\StatsPage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Presentation Logic\StatsSinglePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\21CardGame.xr.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\21CardGame.exe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\resources.pri
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\AppxManifest.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\21CardGame.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\21CardGame.exe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\21CardGame.ITFProxy.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\21CardGame.xr.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Adapters.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\AssemblyInfo.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\c13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\Card-Back-01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_blue1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_blue2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_blue3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_blue4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_blue5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_green1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_green2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_green3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_green4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_green5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_red1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_red2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_red3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_red4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\cardBack_red5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\d13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\h13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\playing-card-back.jpg
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Card Assets\s13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\rules.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\StoreLogo.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\ClrCompression.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Data.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\Helpers.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\ImplTypes.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\PInvoke.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\resources.pri
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\SafeTypes.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ilc\SharedStubs.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\21CardGame.build.appxrecipe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Microsoft.CSharp.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ComponentModel.DataAnnotations.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Core.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Numerics.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Serialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.Web.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Windows.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.Linq.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.Serialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\mscorlib.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Microsoft.VisualBasic.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\Microsoft.Win32.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Private.DataContractSerialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.AppContext.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Collections.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Collections.Concurrent.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Collections.Immutable.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Collections.NonGeneric.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Collections.Specialized.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ComponentModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ComponentModel.Annotations.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Data.Common.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Diagnostics.Contracts.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Diagnostics.Debug.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Diagnostics.StackTrace.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Diagnostics.Tools.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Diagnostics.Tracing.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Dynamic.Runtime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Globalization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Globalization.Calendars.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Globalization.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.Compression.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\ClrCompression.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.Compression.ZipFile.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.FileSystem.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.IsolatedStorage.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Linq.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Linq.Expressions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Linq.Parallel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Linq.Queryable.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.Http.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.Http.Rtc.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.NetworkInformation.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.Requests.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.Sockets.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Net.WebHeaderCollection.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Numerics.Vectors.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ObjectModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Private.Networking.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Private.ServiceModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Private.Uri.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Context.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.DispatchProxy.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Emit.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Metadata.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Reflection.TypeExtensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Resources.ResourceManager.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Handles.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.InteropServices.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Numerics.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Serialization.Json.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Security.Claims.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Security.Principal.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.Duplex.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.Http.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.NetTcp.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.ServiceModel.Security.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Text.Encoding.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Text.Encoding.CodePages.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Text.Encoding.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Text.RegularExpressions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.Overlapped.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.Tasks.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.Tasks.Dataflow.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Threading.Timer.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.ReaderWriter.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.XDocument.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.XmlDocument.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\bin\x86\Release\System.Xml.XmlSerializer.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\21CardGame.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\App.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\App.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\GamePage.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\GamePage.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\MainPage.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\MainPage.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\SinglePlayerGamePage.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\SinglePlayerGamePage.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsPage.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsPage.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsSinglePage.g.i.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsSinglePage.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\XamlTypeInfo.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\App.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\GamePage.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\MainPage.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\SinglePlayerGamePage.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsPage.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsSinglePage.xaml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\App.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\GamePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\MainPage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\SinglePlayerGamePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsPage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\Presentation Logic\StatsSinglePage.xbf
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\XamlSaveStateFile.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\21CardGame.exe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ResourceHandlingTask.state
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\21CardGame.csproj.GenerateResource.Cache
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\priconfig.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\priconfig.xml.intermediate
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\layout.resfiles
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\layout.resfiles.intermediate
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\resources.resfiles
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\resources.resfiles.intermediate
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\pri.resfiles
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\pri.resfiles.intermediate
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\qualifiers.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\qualifiers.txt.intermediate
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ProjectArchitectures.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Properties\Default.rd.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\21CardGame.xr.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\AppxManifest.xml
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\21CardGame.exe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Microsoft.CSharp.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ComponentModel.DataAnnotations.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Core.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Numerics.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Serialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.Web.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Windows.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.Linq.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.Serialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\mscorlib.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Microsoft.VisualBasic.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Microsoft.Win32.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Private.DataContractSerialization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.AppContext.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Collections.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Collections.Concurrent.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Collections.Immutable.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Collections.NonGeneric.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Collections.Specialized.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ComponentModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ComponentModel.Annotations.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Data.Common.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Diagnostics.Contracts.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Diagnostics.Debug.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Diagnostics.StackTrace.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Diagnostics.Tools.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Diagnostics.Tracing.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Dynamic.Runtime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Globalization.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Globalization.Calendars.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Globalization.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.Compression.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.Compression.ZipFile.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.FileSystem.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.IsolatedStorage.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Linq.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Linq.Expressions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Linq.Parallel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Linq.Queryable.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.Http.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.Http.Rtc.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.NetworkInformation.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.Requests.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.Sockets.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Net.WebHeaderCollection.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ObjectModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Private.Networking.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Private.ServiceModel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Private.Uri.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Context.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Emit.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Metadata.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Reflection.TypeExtensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Resources.ResourceManager.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Handles.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Numerics.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Serialization.Json.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Serialization.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.Serialization.Xml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Security.Claims.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Security.Principal.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.Duplex.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.Http.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.NetTcp.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.Primitives.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.ServiceModel.Security.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Text.Encoding.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Text.Encoding.CodePages.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Text.Encoding.Extensions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Text.RegularExpressions.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.Overlapped.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.Tasks.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.Tasks.Dataflow.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.Tasks.Parallel.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Threading.Timer.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.ReaderWriter.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.XDocument.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.XmlDocument.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\System.Xml.XmlSerializer.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\resources.pri
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\ClrCompression.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\c13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\Card-Back-01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_blue1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_blue2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_blue3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_blue4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_blue5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_green1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_green2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_green3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_green4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_green5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_red1.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_red2.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_red3.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_red4.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\cardBack_red5.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\d13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\h13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s01.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s02.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s03.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s04.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s05.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s06.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s07.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s08.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s09.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s10.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s11.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s12.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\s13.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\LockScreenLogo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\SplashScreen.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Square150x150Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Square44x44Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\StoreLogo.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-200.png
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\Card Assets\playing-card-back.jpg
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\in\Assets\rules.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc.21CardGame.rsp
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.ITFProxy.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\Adapters.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\AssemblyInfo.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\Data.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\Helpers.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\ImplTypes.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\PInvoke.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\SafeTypes.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\21CardGame.McgInterop\SharedStubs.g.cs
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.rc
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.res
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.txt
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\gkargs.rsp
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.closure.csv
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.csv
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.forwarders.csv
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.ilexe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.ilexe.ILTransformTask.repro
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.McgInterop.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.McgInterop.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.metadata
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.reflectionlog.csv
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\21CardGame.res
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\Microsoft.Win32.Primitives.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.AppContext.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Collections.NonGeneric.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.StackTrace.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Tools.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Globalization.Extensions.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.FileSystem.Primitives.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.IsolatedStorage.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.IO.UnmanagedMemoryStream.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Numerics.Vectors.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.Networking.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.PortableThunks.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Private.WinRTInterop.CoreLib.ilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Handles.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.Serialization.Primitives.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Runtime.WindowsRuntime.UI.Xaml.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Claims.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Security.Principal.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Text.Encoding.CodePages.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Overlapped.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\ILTransformed\System.Threading.Tasks.Parallel.ildll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\MDIL\21CardGame.mdilexe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\MDIL\21CardGame.mdilpdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\MDIL\21CardGame.rsp
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\Native.res
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\Native\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\21CardGame.exe
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\21CardGame.pdb
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\rhbindargs.21CardGame.rsp
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\sgargs.rsp
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
+C:\Users\Andrew\OneDrive\Archived Courses\Term_2_Courses\Application Development\Projects\Final Project\HighTrickPony\21CardGame\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro

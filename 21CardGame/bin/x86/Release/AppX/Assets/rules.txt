@@ -1,0 +1,9 @@
+
+High Trick Pony is similar to the popular game War
+Essentially, the player with the highest card wins the round
+The Deal button deals the cards to all the players
+The Flip button flips all the players cards
+The winner is the one that is the first to win 5 rounds
+(In Single player mode the difficulty can be changed.  The house
+needs 6, 5 and 4 wins in Beginner, Amateur and Expert respectively)
+Good luck!
